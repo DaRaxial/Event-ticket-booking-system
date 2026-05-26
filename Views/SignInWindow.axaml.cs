@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using EventSeatManager.ViewModels;
 
 namespace EventSeatManager.Views
 {
@@ -7,6 +8,7 @@ namespace EventSeatManager.Views
         public SignInWindow()
         {
             InitializeComponent();
+            DataContext = new MainWindowViewModel();
         }
     }
 }

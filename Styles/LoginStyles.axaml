@@ -1,0 +1,20 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+    <Border Padding="20" Width="400">
+        <StackPanel>
+			<TextBox>
+				
+            </TextBox>
+        </StackPanel>
+    </Border>
+  </Design.PreviewWith>
+
+     <Style Selector="TextBox.LoginTextBox">
+        <Setter Property="Transitions">
+            <Transitions>
+				<BrushTransition Property="Foreground" Duration="0:0:0.5"></BrushTransition>
+            </Transitions>
+        </Setter>
+    </Style>
+</Styles>
