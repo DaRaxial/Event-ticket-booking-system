@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace EventSeatManager;
 
-public partial class RegistrationWindow : UserControl
+public partial class RegistationPage : UserControl
 {
-    public RegistrationWindow()
+    public RegistationPage()
     {
         InitializeComponent();
     }

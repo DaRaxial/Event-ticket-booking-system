@@ -30,8 +30,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\SignInWindow.axaml.cs">
-      <DependentUpon>SignInWindow.axaml</DependentUpon>
+    <Compile Update="Views\MainFilmSystemPage.axaml.cs">
+      <DependentUpon>MainFilmSystemPage.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MainWindow.axaml.cs">
+      <DependentUpon>MainWindow.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\RegistationPage.axaml.cs">
+      <DependentUpon>RegistationPage.axaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

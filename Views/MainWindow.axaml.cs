@@ -3,12 +3,11 @@ using EventSeatManager.ViewModels;
 
 namespace EventSeatManager.Views
 {
-    public partial class SignInWindow : Window
+    public partial class MainWindow : Window
     {
-        public SignInWindow()
+        public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainWindowViewModel();
         }
     }
 }
