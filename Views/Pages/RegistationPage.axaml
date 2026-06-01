@@ -1,0 +1,82 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:EventSeatManager.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+             x:Class="EventSeatManager.RegistationPage"
+             x:DataType="vm:MainWindowViewModel"
+             Width="1140"
+             Height="720">
+
+    <Border CornerRadius="0" Background="White">
+        <Grid ColumnDefinitions="Auto, Auto" Margin="20">
+            <!-- Блок "Регистрация"-->
+            <Grid Grid.Column="0" RowDefinitions="Auto, Auto, Auto, Auto, Auto" Margin="0, -20, 20, 0">
+                <StackPanel Grid.Row="0">
+                    <TextBlock Text="Регистрация" FontSize="50" HorizontalAlignment="Center" FontWeight="Bold"
+                               Margin="20, 100, 0, 0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Orientation="Vertical">
+                    <TextBlock Text="Имя:" FontSize="30" FontWeight="Bold" Margin="10, 10, 0, 0"/>
+                    <TextBox Watermark="Введите Ваше имя" FontSize="20" CornerRadius="12"
+                            HorizontalAlignment="Left" VerticalContentAlignment="Center" Width="400" Margin="10, 10, 0, 0"
+                            BorderThickness="2" Height="50"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Orientation="Vertical">
+                    <TextBlock Text="Почта:" FontSize="30" FontWeight="Bold" Margin="10, 10, 0, 0"/>
+                    <TextBox Watermark="Введите Ваш email" FontSize="20" CornerRadius="12"
+                            HorizontalAlignment="Left" VerticalContentAlignment="Center" Width="400" Margin="10, 10, 0, 0"
+                            BorderThickness="2" Height="50"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="3" Orientation="Vertical">
+                    <TextBlock Text="Пароль:" FontSize="30" FontWeight="Bold" Margin="10, 10, 0, 0"/>
+                    <TextBox Watermark="Введите Ваш пароль" FontSize="20" CornerRadius="12"
+                            HorizontalAlignment="Left" VerticalContentAlignment="Center" Width="400" Margin="10, 10, 0, 0"
+                            BorderThickness="2" Height="50"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Orientation="Vertical">
+                    <Button x:Name="RegistrationButton" Click="RegistrationButton_Click"
+                            Content="Зарегистрироваться" CornerRadius="12" BorderThickness="2"
+                            FontSize="30" Foreground="rgba(255,255,255, 0.85)" Width="380"
+                            HorizontalContentAlignment="Center" Margin="20, 30, 0, 0">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+                                <GradientStop Color="Purple" Offset="0.1"/>
+                                <GradientStop Color="rgba(36, 0, 97, 0.85)" Offset="1.0"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <!-- Блок "Декоративный элемент (фон) -->
+            <Grid Grid.Column="1" Width="670">
+				<Border ClipToBounds="True" CornerRadius="20">
+                    <Image Source="/Assets/LoginBackground.jpg" Stretch="UniformToFill" Margin="0,0,0,0" Opacity="1">
+                         <Image.Clip>
+                            m 0 0 l 670 0 l 0 900 l -725 0 l 250 -900
+                        </Image.Clip>
+                    </Image>
+                </Border>
+                <Grid RowDefinitions="Auto, Auto">
+                    <StackPanel Grid.Row="0">
+                        <TextBlock Grid.Row="0" TextWrapping="Wrap" Text="             Зарегистрируйтесь      в                   в EventSeat!"
+                                   FontSize="50" FontWeight="Bold" Foreground="rgba(255, 255, 255, 0.85)"
+                                   VerticalAlignment="Top" Margin="-10, 260"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="1">
+                        <Button x:Name="BackToLoginPage" Click="BackToLoginPage_Click" Content="Назад" FontSize="20" Foreground="rgba(255, 255, 255, 0.85)" Width="100"
+                                BorderBrush="White" BorderThickness="2" CornerRadius="12" HorizontalAlignment="Center"
+                                HorizontalContentAlignment="Center" Margin="530,-25,0,0"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

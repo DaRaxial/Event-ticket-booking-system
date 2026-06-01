@@ -1,0 +1,64 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:EventSeatManager.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+             x:Class="EventSeatManager.LoginPage"
+             x:DataType="vm:MainWindowViewModel">
+
+    <Border CornerRadius="0" Background="White">
+        <Grid ColumnDefinitions="Auto, *" Margin="20">
+			<Grid Grid.Column="0" Width="650">
+				<Border ClipToBounds="True" CornerRadius="20">
+                    <Image Source="/Assets/LoginBackground.jpg" Stretch="UniformToFill" Margin="0,0,-500, 0">
+                        <Image.Clip>
+                            m 0 0 l 650 0 l -250 900 l -900 0 l 0 -600
+                        </Image.Clip>
+                    </Image>
+                </Border>
+                <Grid>
+                    <Grid RowDefinitions="Auto, *" Margin="35">
+                        <StackPanel Grid.Row="0">
+                            <Button x:Name="InLoginRegistrButton" Click="InLoginRegistrButton_Click" Content="Зарегистрироваться" FontSize="20" Foreground="rgba(255, 255, 255, 0.85)"
+                                    BorderBrush="White" BorderThickness="2" CornerRadius="12" HorizontalAlignment="Right"
+                                    Margin="0,-10,0,0"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="1">
+                            <TextBlock Grid.Row="0" TextWrapping="Wrap" Text="Добро пожаловать      в EventSeat!"
+                                       FontSize="50" FontWeight="Bold" Foreground="rgba(255, 255, 255, 0.85)"
+                                       VerticalAlignment="Top" Margin="0, 170"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Column="1" ShowGridLines="False" RowDefinitions="Auto, Auto, Auto, *" Margin="0, 100, 0, 0">
+                <TextBlock Grid.Row="0" Text="Войти в аккаунт" FontSize="50" FontWeight="Bold"
+                           HorizontalAlignment="Center" Margin="0, 50"/>
+                <StackPanel Grid.Row="1" Orientation="Vertical" Margin="0, 0, 0, 0">
+                    <TextBox Watermark="Введите email" FontSize="20" BorderBrush="Gray"
+                             BorderThickness="2" CornerRadius="12" Height="50" VerticalContentAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Orientation="Vertical" Margin="0, 20, 0, 0">
+                    <TextBox Watermark="Введите пароль" FontSize="20" BorderBrush="Gray"
+                             BorderThickness="2" CornerRadius="12" Height="50" VerticalContentAlignment="Center"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="3" Orientation="Vertical">
+                    <Button x:Name="LoginButton" Click="LoginButton_Click" Content="Войти" CornerRadius="12" BorderThickness="2"
+                            HorizontalAlignment="Center" FontSize="30" Foreground="rgba(255,255,255, 0.85)" Width="400"
+                            HorizontalContentAlignment="Center" Margin="0, 20, 0, 0">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+                                <GradientStop Color="Purple" Offset="0.1"/>
+                                <GradientStop Color="rgba(36, 0, 97, 0.85)" Offset="1.0"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

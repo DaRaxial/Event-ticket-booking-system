@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="EventSeatManager.FilmShowcase">
+
+    <Border Background="White"
+            BorderBrush="#E0E0E0"
+            BorderThickness="1"
+            CornerRadius="8"
+            Margin="10"
+            Padding="12">
+        <StackPanel>
+            <Image Source=""
+                   Width="200"
+                   Height="300"
+                   Stretch="UniformToFill"
+                   HorizontalAlignment="Center" />
+            <TextBlock Text=""
+                       FontSize="16"
+                       FontWeight="Bold"
+                       Margin="0,10,0,5"
+                       HorizontalAlignment="Center" />
+            <TextBlock Text=""
+                       FontSize="12"
+                       TextWrapping="Wrap"
+                       MaxHeight="60"
+                       HorizontalAlignment="Center" />
+            <Button Content="Выбрать сеанс"
+                    Margin="0,10,0,0" />
+        </StackPanel>
+    </Border>
+</UserControl>
