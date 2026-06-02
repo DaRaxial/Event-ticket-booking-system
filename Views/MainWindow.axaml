@@ -13,7 +13,6 @@
         Height="720"
         CanResize="False"
         ExtendClientAreaToDecorationsHint="False"
-        ExtendClientAreaTitleBarHeightHint="40"
         SystemDecorations="Full"
         Background="Transparent"
         WindowStartupLocation="CenterScreen">
@@ -22,5 +21,6 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
+    <!-- Перемещение в главном окне -->
     <fa:Frame x:Name="MainFrame"/>
 </Window>

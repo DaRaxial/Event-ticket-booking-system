@@ -8,7 +8,7 @@
     <Border CornerRadius="12" Background="White">
         <Grid ShowGridLines="False" RowDefinitions="Auto, Auto, *">
             <!-- Верхняя панель управления -->
-            <Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top">
+            <Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top" BoxShadow="0 5 10 0 #80000000">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
                         <GradientStop Color="rgba(41, 15, 59, 0.95)" Offset="0"/>
@@ -38,11 +38,6 @@
                 </Grid>
             </Border>
 
-            <!-- Декоративная тень верхней панели управления -->
-            <Canvas Grid.Row="1">
-				<Rectangle Width="1100" Height="15" Fill="rgba(74, 74, 74, 0.6)" Margin="20, -2, 0, 0"/>
-            </Canvas>
-
             <!-- Зона "профиля" -->
             <Grid Grid.Row="2" ColumnDefinitions="Auto, Auto" ShowGridLines="False">
 				<Grid Grid.Column="0" ShowGridLines="False" RowDefinitions="Auto, Auto">
@@ -51,16 +46,24 @@
 						<Border Padding="12" Background="LightGray" Width="500" Height="300" Opacity="0.6"
                                 Margin="20, 30" CornerRadius="12">
                             <StackPanel>
-								<TextBlock Text="Основная информация" FontWeight="Bold" FontSize="30"/>
+								<TextBlock Text="Основная информация" HorizontalAlignment="Center" FontWeight="Bold" FontSize="30"/>
+                                
+                                <Line StartPoint="0,0" EndPoint="475,0" Stroke="Black" 
+                                      StrokeThickness="1" Margin="0, 5"/>
 
-                                <!-- Имя -->
-                                <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
-                                    <TextBlock Text="Имя: " FontSize="20" FontWeight="Bold"/>
+                                <StackPanel Orientation="Horizontal" Margin="0, 20, 0, 10">
+                                    <TextBlock Text="Имя: " FontSize="30" FontWeight="Bold"/>
 									<TextBlock Text="" FontSize="20" FontWeight="SemiBold"/>
                                 </StackPanel>
 
-                                <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
-                                    <TextBlock Text="Почта: " FontSize="20" FontWeight="Bold"/>
+                                <StackPanel Orientation="Horizontal" Margin="0, 10">
+                                    <TextBlock Text="Почта: " FontSize="30" FontWeight="Bold"/>
+                                    <TextBlock Text="" FontSize="25" FontWeight="Bold"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0, 10">
+                                    <TextBlock Text="Куплено билетов: " FontSize="30" FontWeight="Bold"/>
+                                    <TextBlock Text="2" FontSize="30" FontWeight="Bold"/>
                                 </StackPanel>
                             </StackPanel>
                         </Border>
@@ -68,26 +71,34 @@
 
                     <!-- Карточка "кошелёк" -->
                     <StackPanel Grid.Row="1">
-						<Border Padding="12" Background="LightGray" Width="500" Height="230" Opacity="0.6"
-                                Margin="20, 10" CornerRadius="12">
+						<Border Padding="12" Background="LightGray" Width="500" Height="250" Opacity="0.6"
+                                Margin="0, -10" CornerRadius="12">
                             <StackPanel>
-								<TextBlock Text="Ваш кошелёк" FontWeight="Bold" FontSize="30"/>
+								<TextBlock Text="Кошелёк" HorizontalAlignment="Center" FontWeight="Bold" FontSize="30"/>
+                                
+                                <Line StartPoint="0,0" EndPoint="475,0" Stroke="Black" 
+                                      StrokeThickness="1" Margin="0, 5"/>
+                                
+                                <TextBlock Text="На счету: " FontSize="30" FontWeight="SemiBold" Margin="0, 10"/>
 
+                                <Button Classes="gradient" Width="250" Content="Пополнить" 
+                                        FontSize="30" HorizontalContentAlignment="Center" Margin=""/>
                             </StackPanel>
                         </Border>
                     </StackPanel>
                 </Grid>
 
                 <!-- Карточка "Заказы (забронированные фильмы)" -->
-                    <StackPanel Grid.Column="1">
-						<Border Padding="12" Background="LightGray" Width="550" Height="572" Opacity="0.6"
-                                Margin="30, 30" CornerRadius="12">
-                            <StackPanel>
-								<TextBlock Text="Заказы (билеты)" FontWeight="Bold" FontSize="30"/>
-
-                            </StackPanel>
-                        </Border>
-                    </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Border Padding="12" Background="LightGray" Width="550" Height="572" Opacity="0.6"
+                            Margin="30, 30" CornerRadius="12">
+                        <StackPanel>
+                            <TextBlock Text="Заказы (билеты)" FontWeight="Bold" FontSize="30" HorizontalAlignment="Center"/>
+                            <Line StartPoint="0,0" EndPoint="525,0" Stroke="Black" 
+                                  StrokeThickness="1" Margin="0, 5"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
             </Grid>
         </Grid>
     </Border>

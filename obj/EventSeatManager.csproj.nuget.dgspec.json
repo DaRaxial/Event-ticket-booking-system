@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj": {}
+    "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj": {
+    "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
+        "projectUniqueName": "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj",
         "projectName": "EventSeatManager",
-        "projectPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
+        "projectPath": "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj",
         "packagesPath": "C:\\Users\\JustY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\obj\\",
+        "outputPath": "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JustY\\AppData\\Roaming\\NuGet\\NuGet.Config",

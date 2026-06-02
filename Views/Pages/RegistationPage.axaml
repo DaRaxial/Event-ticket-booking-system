@@ -65,9 +65,9 @@
                 </Border>
                 <Grid RowDefinitions="Auto, Auto">
                     <StackPanel Grid.Row="0">
-                        <TextBlock Grid.Row="0" TextWrapping="Wrap" Text="             Зарегистрируйтесь      в                   в EventSeat!"
+                        <TextBlock Grid.Row="0" TextWrapping="Wrap" Text="Зарегистрируйтесь&#10;в EventSeat!"
                                    FontSize="50" FontWeight="Bold" Foreground="rgba(255, 255, 255, 0.85)"
-                                   VerticalAlignment="Top" Margin="-10, 260"/>
+                                   VerticalAlignment="Top" Margin="135, 260" Width="550"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1">

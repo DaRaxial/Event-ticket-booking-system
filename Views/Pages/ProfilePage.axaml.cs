@@ -1,6 +1,4 @@
-using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Markup.Xaml;
 using Avalonia.VisualTree;
 using EventSeatManager.Views;
 
@@ -15,9 +13,7 @@ public partial class ProfilePage : UserControl
 
     private void GoToMainPageButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        if (this.FindAncestorOfType<MainWindow>() is MainWindow mainWindow)
-        {
-            mainWindow.MainFrame.Navigate(typeof(MainFilmSystemWindow));
-        }
+        var main = this.FindAncestorOfType<MainWindow>();
+        main.MainFrame.Navigate(typeof(MainFilmSystemWindow));
     }
 }

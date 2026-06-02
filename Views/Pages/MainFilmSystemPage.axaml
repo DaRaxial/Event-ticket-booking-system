@@ -10,7 +10,8 @@
     <Border CornerRadius="12" Background="White">
         <Grid ShowGridLines="False" RowDefinitions="Auto, Auto, *">
             <!-- Верхняя панель управления -->
-            <Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top">
+            <Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top"
+                    BoxShadow="0 5 10 0 #80000000">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
                         <GradientStop Color="rgba(41, 15, 59, 0.95)" Offset="0"/>
@@ -42,11 +43,6 @@
 				<Button x:Name="GoToProfileButton" Click="GoToProfileButton_Click"
                         Width="210" Height="60" HorizontalAlignment="Right" Margin="12, 10" Background="rgba(0,0,0,0)"/>
             </StackPanel>
-            
-            <!-- Декоративная тень верхней панели управления -->
-            <Canvas Grid.Row="1">
-				<Rectangle Width="1100" Height="15" Fill="rgba(74, 74, 74, 0.6)" Margin="20, -2, 0, 0"/>
-            </Canvas>
 
             <!-- Зона "список фильмов" -->
             <StackPanel Grid.Row="2">
@@ -54,6 +50,10 @@
                         Margin="30, 30" CornerRadius="12">
                     <StackPanel>
                         <TextBlock Text="В ПРОКАТЕ" FontWeight="Bold" FontSize="50" Opacity="0.7" Margin="10"/>
+
+                        <ListBox Background="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                            
+                        </ListBox>
                     </StackPanel>
                 </Border>
             </StackPanel>

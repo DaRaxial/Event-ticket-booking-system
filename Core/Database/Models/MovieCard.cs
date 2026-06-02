@@ -2,12 +2,12 @@
 {
     public class MovieCard
     {
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public string Description { get; set; }
-        public string Poster { get; set; }
-        public string Genre { get; set;  }
+        public string Title { get; set; } = string.Empty;
+        public string Author { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public string Poster { get; set; } = string.Empty;
+        public string Genre { get; set; } = string.Empty;
         public int Release { get; set; } // год выпуска
-        public int Age_rating { get; set; }
+        public int AgeRating { get; set; }
     }
 }

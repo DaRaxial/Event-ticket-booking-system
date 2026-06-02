@@ -3,18 +3,10 @@
   <Design.PreviewWith>
     <Border Padding="20" Width="400">
         <StackPanel>
-			<TextBox>
-				
-            </TextBox>
+            <Button Width="100" Height="50">
+                
+            </Button>
         </StackPanel>
     </Border>
   </Design.PreviewWith>
-
-     <Style Selector="TextBox.LoginTextBox">
-        <Setter Property="Transitions">
-            <Transitions>
-				<BrushTransition Property="Foreground" Duration="0:0:0.5"></BrushTransition>
-            </Transitions>
-        </Setter>
-    </Style>
 </Styles>
