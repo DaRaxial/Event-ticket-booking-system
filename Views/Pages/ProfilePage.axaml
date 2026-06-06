@@ -1,9 +1,12 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:EventSeatManager.ViewModels"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewmodels="using:EventSeatManager.ViewModels"
              mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
-             x:Class="EventSeatManager.ProfilePage">
+             x:Class="EventSeatManager.ProfilePage"
+             x:DataType="vm:ProfilePageViewModel">
 
     <Border CornerRadius="12" Background="White">
         <Grid ShowGridLines="False" RowDefinitions="Auto, Auto, *">
@@ -82,7 +85,7 @@
                                 <TextBlock Text="На счету: " FontSize="30" FontWeight="SemiBold" Margin="0, 10"/>
 
                                 <Button Classes="gradient" Width="250" Content="Пополнить" 
-                                        FontSize="30" HorizontalContentAlignment="Center" Margin=""/>
+                                        FontSize="30" HorizontalContentAlignment="Center" Margin="1"/>
                             </StackPanel>
                         </Border>
                     </StackPanel>

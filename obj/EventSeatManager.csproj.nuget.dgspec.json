@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj": {}
+    "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj": {
+    "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj",
+        "projectUniqueName": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
         "projectName": "EventSeatManager",
-        "projectPath": "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\EventSeatManager.csproj",
+        "projectPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
         "packagesPath": "C:\\Users\\JustY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JustY\\source\\repos\\DaRaxial\\Event-ticket-booking-system\\obj\\",
+        "outputPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JustY\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,9 +72,21 @@
               "target": "Package",
               "version": "[8.4.2, )"
             },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.79, )"
+            },
             "FluentAvaloniaUI": {
               "target": "Package",
               "version": "[2.5.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[10.0.8, )"
             },
             "Tmds.DBus.Protocol": {
               "target": "Package",

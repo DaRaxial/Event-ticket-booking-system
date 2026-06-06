@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <AvaloniaResource Include="Assets\**" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,7 +22,10 @@
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <PackageReference Include="Dapper" Version="2.1.79" />
     <PackageReference Include="FluentAvaloniaUI" Version="2.5.1" />
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.8" />
     <PackageReference Include="Tmds.DBus.Protocol" Version="0.94.0" />
   </ItemGroup>
 
@@ -34,8 +36,8 @@
     <Compile Update="Views\MainWindow.axaml.cs">
       <DependentUpon>MainWindow.axaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\Pages\RegistationPage.axaml.cs">
-      <DependentUpon>RegistationPage.axaml</DependentUpon>
+    <Compile Update="Views\Pages\RegistrationPage.axaml.cs">
+      <DependentUpon>RegistrationPage.axaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

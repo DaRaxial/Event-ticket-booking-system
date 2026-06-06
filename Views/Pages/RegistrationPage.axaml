@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
              x:Class="EventSeatManager.RegistationPage"
-             x:DataType="vm:MainWindowViewModel"
+             x:DataType="vm:RegistrationPageViewModel"
              Width="1140"
              Height="720">
 

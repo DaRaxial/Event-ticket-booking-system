@@ -6,9 +6,9 @@ using EventSeatManager.Views;
 
 namespace EventSeatManager;
 
-public partial class MainFilmSystemWindow : UserControl
+public partial class MainFilmSystemPage : UserControl
 {
-    public MainFilmSystemWindow()
+    public MainFilmSystemPage()
     {
         InitializeComponent();
     }

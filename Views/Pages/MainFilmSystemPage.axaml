@@ -4,8 +4,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
-             x:Class="EventSeatManager.MainFilmSystemWindow"
-             x:DataType="vm:MainWindowViewModel">
+             x:Class="EventSeatManager.MainFilmSystemPage"
+             x:DataType="vm:MainFilmSystemPageViewModel">
 
     <Border CornerRadius="12" Background="White">
         <Grid ShowGridLines="False" RowDefinitions="Auto, Auto, *">

@@ -1,6 +1,6 @@
 ﻿namespace EventSeatManager.Core.Database.Models
 {
-    public class MovieCard
+    public class Films
     {
         public string Title { get; set; } = string.Empty;
         public string Author { get; set; } = string.Empty;
