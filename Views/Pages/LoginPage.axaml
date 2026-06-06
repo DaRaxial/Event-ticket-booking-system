@@ -3,7 +3,6 @@
              xmlns:vm="using:EventSeatManager.ViewModels"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:fa="clr-namespace:FluentAvalonia.UI.Controls;assembly=FluentAvalonia"
              mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
              x:Class="EventSeatManager.LoginPage"
              x:DataType="vm:LoginPageViewModel">
@@ -16,7 +15,9 @@
 				<Border ClipToBounds="True" CornerRadius="20">
                     <Image Source="/Assets/LoginBackground.jpg" Stretch="UniformToFill" Margin="0,0,-500, 0">
                         <Image.Clip>
-                            m 0 0 l 650 0 l -250 900 l -900 0 l 0 -600
+                            <PathGeometry>
+                                m 0 0 l 650 0 l -250 900 l -900 0 l 0 -600	
+                            </PathGeometry>
                         </Image.Clip>
                     </Image>
                 </Border>
@@ -38,14 +39,15 @@
             <!-- Правая функциональная часть -->
             <Grid Grid.Column="1" ShowGridLines="False" RowDefinitions="Auto, Auto, Auto, *" Margin="0, 100, 0, 0">
                 <TextBlock Grid.Row="0" Text="Войти в аккаунт" FontSize="50" FontWeight="Bold"
-                           HorizontalAlignment="Center" Margin="0, 50"/>
+                           HorizontalAlignment="Center" Margin="0, 50" Background="Transparent"/>
                 <StackPanel Grid.Row="1" Orientation="Vertical" Margin="0, 0, 0, 0">
                     <TextBox Text="{Binding LoginEmailInput}" Watermark="Введите email" FontSize="20" BorderBrush="Gray"
-                             BorderThickness="2" CornerRadius="12" Height="50" VerticalContentAlignment="Center"/>
+                             BorderThickness="2" CornerRadius="12" VerticalContentAlignment="Center"/>
                 </StackPanel>
                 <StackPanel Grid.Row="2" Orientation="Vertical" Margin="0, 20, 0, 0">
                     <TextBox Text="{Binding LoginPasswordInput}" Watermark="Введите пароль" FontSize="20" BorderBrush="Gray"
-                             BorderThickness="2" CornerRadius="12" Height="50" VerticalContentAlignment="Center"/>
+                             BorderThickness="2" CornerRadius="12" VerticalContentAlignment="Center"
+                             PasswordChar="*"/>
                 </StackPanel>
                 
                 <StackPanel Grid.Row="3" Orientation="Vertical">

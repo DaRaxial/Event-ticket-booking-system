@@ -10,7 +10,8 @@ namespace EventSeatManager.Views
         {
             InitializeComponent();
             MainFrame.Navigate(typeof(LoginPage));
-            AppService.Initialize(MainFrame);
+
+            AppNavigationService.Initialize(MainFrame);
         }
     }
 }

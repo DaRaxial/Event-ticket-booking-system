@@ -2,7 +2,8 @@
 
 namespace EventSeatManager.Services
 {
-    public static class AppService
+    // Класс-инструмент для навигации между страницами
+    public static class AppNavigationService 
     {
         public static Frame? MainFrame { get; private set; }
 
