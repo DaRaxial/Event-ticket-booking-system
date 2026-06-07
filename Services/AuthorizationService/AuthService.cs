@@ -1,14 +1,13 @@
-﻿using Avalonia.Controls;
-using EventSeatManager.Repository.Classes;
-using EventSeatManager.Repository.Interfaces;
+﻿using EventSeatManager.Repository.Classes;
 using System;
 using System.Threading.Tasks;
+using BC = BCrypt.Net.BCrypt;
 
 namespace EventSeatManager.Services.AuthorizationService
 {
-    public class AuthService : IAuthService
+    public class AuthService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly UserRepository _userRepository;
         public AuthService()
         {
             _userRepository = new UserRepository();
@@ -19,16 +18,38 @@ namespace EventSeatManager.Services.AuthorizationService
         {
             try
             {
-                var user = await _userRepository.GetByEmail(email);
+                var user = await _userRepository.GetByEmail(email.ToLower());
 
-                if (user.Password == password)
+                if (BC.Verify(password, user.Password))
                     return true;
                 else
                     return false;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Ошибка проверки пользователя на входе: {ex.Message}");
+                return false;
+            }
+        }
+
+        // Проверка данных на странице 'RegistrationPage'. В случае успеха, отправление данных в БД
+        async public Task<bool> CheckDataToCreateNewUser(string firstName, string email, string password)
+        {
+            try
+            {
+                if (firstName != string.Empty && email != string.Empty && password != string.Empty)
+                {
+                    string hashedPassword = BC.HashPassword(password);
+                    await _userRepository.CreateNewUser(firstName.ToLower(), email.ToLower(), hashedPassword);
+                }
+                else
+                    return false;
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка регистрации нового пользователя: {ex.Message}");
                 return false;
             }
         }

@@ -8,8 +8,8 @@ namespace EventSeatManager.Core.Database.Models
         public int Id { get; set; }
         public decimal Price { get; set; }
         public string BuyerName { get; set; } = string.Empty;
-        public Date BoughtDate { get; set; }
-        public Date SessionDate { get; set; }
+        public required Date BoughtDate { get; set; }
+        public required Date SessionDate { get; set; }
         public int SpecialId { get; set; }
         public int SeatPlace { get; set; }
         public int RowPlace { get; set; }

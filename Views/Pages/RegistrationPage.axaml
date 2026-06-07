@@ -20,27 +20,27 @@
 
                 <StackPanel Grid.Row="1" Orientation="Vertical">
                     <TextBlock Text="Имя:" FontSize="30" FontWeight="Bold" Margin="10, 10, 0, 0"/>
-                    <TextBox Watermark="Введите Ваше имя" FontSize="20" CornerRadius="12"
+                    <TextBox Text="{Binding RegistrNameInput}" Watermark="Введите Ваше имя" FontSize="24" CornerRadius="12"
                             HorizontalAlignment="Left" VerticalContentAlignment="Center" Width="400" Margin="10, 10, 0, 0"
-                            BorderThickness="2" Height="50"/>
+                            BorderThickness="2"/>
                 </StackPanel>
 
                 <StackPanel Grid.Row="2" Orientation="Vertical">
                     <TextBlock Text="Почта:" FontSize="30" FontWeight="Bold" Margin="10, 10, 0, 0"/>
-                    <TextBox Watermark="Введите Ваш email" FontSize="20" CornerRadius="12"
+                    <TextBox Text="{Binding RegistrEmailInput}" Watermark="Введите Ваш email" FontSize="24" CornerRadius="12"
                             HorizontalAlignment="Left" VerticalContentAlignment="Center" Width="400" Margin="10, 10, 0, 0"
-                            BorderThickness="2" Height="50"/>
+                            BorderThickness="2"/>
                 </StackPanel>
 
                 <StackPanel Grid.Row="3" Orientation="Vertical">
                     <TextBlock Text="Пароль:" FontSize="30" FontWeight="Bold" Margin="10, 10, 0, 0"/>
-                    <TextBox Watermark="Введите Ваш пароль" FontSize="20" CornerRadius="12"
+                    <TextBox Text="{Binding RegistrPasswordInput}" Watermark="Введите Ваш пароль" FontSize="24" CornerRadius="12"
                             HorizontalAlignment="Left" VerticalContentAlignment="Center" Width="400" Margin="10, 10, 0, 0"
-                            BorderThickness="2" Height="50"/>
+                            BorderThickness="2" PasswordChar="*"/>
                 </StackPanel>
 
                 <StackPanel Grid.Row="4" Orientation="Vertical">
-                    <Button x:Name="RegistrationButton" Click="RegistrationButton_Click"
+                    <Button Command="{Binding RegistrationButtonCommand}"
                             Content="Зарегистрироваться" CornerRadius="12" BorderThickness="2"
                             FontSize="30" Foreground="rgba(255,255,255, 0.85)" Width="380"
                             HorizontalContentAlignment="Center" Margin="20, 30, 0, 0">
@@ -71,7 +71,7 @@
                     </StackPanel>
 
                     <StackPanel Grid.Row="1">
-                        <Button x:Name="BackToLoginPage" Click="BackToLoginPage_Click" Content="Назад" FontSize="20" Foreground="rgba(255, 255, 255, 0.85)" Width="100"
+                        <Button Command="{Binding BackToLoginPageButtonCommand}" Content="Назад" FontSize="20" Foreground="rgba(255, 255, 255, 0.85)" Width="100"
                                 BorderBrush="White" BorderThickness="2" CornerRadius="12" HorizontalAlignment="Center"
                                 HorizontalContentAlignment="Center" Margin="530,-25,0,0"/>
                     </StackPanel>

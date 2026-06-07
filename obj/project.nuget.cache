@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qVEw09gcM/4=",
+  "dgSpecHash": "A6hM3vNOsfg=",
   "success": true,
   "projectFilePath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\JustY\\.nuget\\packages\\avalonia.themes.simple\\11.3.12\\avalonia.themes.simple.11.3.12.nupkg.sha512",
     "C:\\Users\\JustY\\.nuget\\packages\\avalonia.win32\\11.3.12\\avalonia.win32.11.3.12.nupkg.sha512",
     "C:\\Users\\JustY\\.nuget\\packages\\avalonia.x11\\11.3.12\\avalonia.x11.11.3.12.nupkg.sha512",
+    "C:\\Users\\JustY\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\JustY\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "C:\\Users\\JustY\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
     "C:\\Users\\JustY\\.nuget\\packages\\fluentavaloniaui\\2.5.1\\fluentavaloniaui.2.5.1.nupkg.sha512",

@@ -2,8 +2,6 @@
 using CommunityToolkit.Mvvm.Input;
 using EventSeatManager.Services;
 using EventSeatManager.Services.AuthorizationService;
-using EventSeatManager.Views;
-using FluentAvalonia.UI.Controls;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
@@ -11,7 +9,7 @@ namespace EventSeatManager.ViewModels
 {
     public partial class LoginPageViewModel : ObservableValidator
     {
-        private readonly IAuthService _loginService;
+        private readonly AuthService _loginService;
 
         [ObservableProperty]
         [NotifyDataErrorInfo]
@@ -34,9 +32,12 @@ namespace EventSeatManager.ViewModels
         {
             var result = await _loginService.CheckDataUserInLogin(LoginEmailInput, LoginPasswordInput);
             if (result == true)
+            {
                 AppNavigationService.MainFrame!.Navigate(typeof(MainFilmSystemPage));
+                ErrorMessage = string.Empty;
+            }
             else
-                ErrorMessage = "Ошибка входа! Повторите попытку!";
+                ErrorMessage = "Неверная почта или пароль! Повторите попытку!";
         }
 
         [RelayCommand]

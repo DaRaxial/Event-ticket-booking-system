@@ -3,6 +3,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
+using EventSeatManager.Services.AuthorizationService;
 using EventSeatManager.ViewModels;
 using EventSeatManager.Views;
 using System.Linq;

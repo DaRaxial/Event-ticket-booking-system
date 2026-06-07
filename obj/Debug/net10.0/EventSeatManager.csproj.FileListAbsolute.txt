@@ -316,3 +316,4 @@ C:\Users\JustY\OneDrive\Desktop\EventSeatManager\obj\Debug\net10.0\refint\EventS
 C:\Users\JustY\OneDrive\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.pdb
 C:\Users\JustY\OneDrive\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
 C:\Users\JustY\OneDrive\Desktop\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
