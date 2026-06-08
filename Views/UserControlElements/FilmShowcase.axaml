@@ -1,34 +1,68 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="using:EventSeatManager.ViewModels"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="EventSeatManager.FilmShowcase">
+             xmlns:models="using:EventSeatManager.Core.Database.Models"
+             mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+             x:Class="EventSeatManager.FilmShowcase"
+             x:DataType="models:Films">
 
-    <Border Background="White"
-            BorderBrush="#E0E0E0"
-            BorderThickness="1"
-            CornerRadius="8"
-            Margin="10"
-            Padding="12">
-        <StackPanel>
-            <Image Source=""
-                   Width="200"
-                   Height="300"
-                   Stretch="UniformToFill"
-                   HorizontalAlignment="Center" />
-            <TextBlock Text=""
-                       FontSize="16"
-                       FontWeight="Bold"
-                       Margin="0,10,0,5"
-                       HorizontalAlignment="Center" />
-            <TextBlock Text=""
-                       FontSize="12"
-                       TextWrapping="Wrap"
-                       MaxHeight="60"
-                       HorizontalAlignment="Center" />
-            <Button Content="Выбрать сеанс"
-                    Margin="0,10,0,0" />
-        </StackPanel>
+    <Border Background="White" CornerRadius="10" Margin="10" Padding="15"
+              BoxShadow="0 2 5 0 #30000000">
+        <Grid ShowGridLines="False" ColumnDefinitions="Auto, Auto" RowDefinitions="Auto, Auto">
+            <TextBlock  Text="{Binding Title}" FontSize="30" Foreground="Black" FontWeight="SemiBold"  Margin="5, 0"/>
+
+            <Image Grid.Column="0" Grid.Row="1" Height="350" HorizontalAlignment="Left"
+                   Source="/Assets/Shrek.jpg"/>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Margin="15, 30, 0, 0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Режиссёр: " FontSize="18" FontWeight="Medium" Margin="0,10,0,5"/>
+                    <TextBlock Text="{Binding Author}" FontSize="18" FontWeight="Medium" Margin="0,10,0,5"/>
+                </StackPanel>
+                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Возрастной рейтинг: " FontSize="18" FontWeight="Medium"/>
+                    <TextBlock Text="{Binding AgeRating}" FontSize="18" FontWeight="Medium"/>
+                </StackPanel>
+                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+                
+                <TextBlock Text="{Binding Description}" 
+                           TextWrapping="Wrap" FontSize="16" Margin="0,5,0,0"/>
+            </StackPanel>
+        </Grid>        
     </Border>
 </UserControl>
+
+
+
+<!--
+
+    <Border Background="Transparent" CornerRadius="10" Margin="10" Padding="15"
+              BoxShadow="0 2 5 0 #30000000">
+        <Grid ShowGridLines="False" ColumnDefinitions="Auto, Auto" RowDefinitions="Auto, Auto">
+            <TextBlock  Text="1+1" FontSize="30" Foreground="Black" FontWeight="SemiBold"  Margin="5, 0"/>
+
+            <Image Grid.Column="0" Grid.Row="1" Height="350" HorizontalAlignment="Left"
+                   Source="/Assets/Posters/Intouchables.webp"/>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Margin="15, 30, 0, 0">
+                <StackPanel>
+                    <TextBlock Text="Режиссёр:" FontSize="18" FontWeight="Medium" Margin="0,10,0,5"/>
+                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Text="Возрастной рейтинг" FontSize="18" FontWeight="Medium"/>
+                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+                </StackPanel>
+                <TextBlock Text="Пострадав в результате несчастного случая, богатый аристократ Филипп нанимает в помощники человека, который менее всего подходит для этой работы, – молодого жителя предместья Дрисса, только что освободившегося из тюрьмы. Несмотря на то, что Филипп прикован к инвалидному креслу, Дриссу удается привнести в размеренную жизнь аристократа дух приключений." 
+                           TextWrapping="Wrap" FontSize="16" Margin="0,5,0,0"/>
+            </StackPanel>
+        </Grid>        
+    </Border>
+
+
+-->

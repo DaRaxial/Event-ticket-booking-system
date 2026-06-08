@@ -1,7 +1,9 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="using:EventSeatManager.ViewModels"
+             xmlns:views="clr-namespace:EventSeatManager.Views.UserControlElements"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="using:EventSeatManager"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
              x:Class="EventSeatManager.MainFilmSystemPage"
@@ -47,13 +49,27 @@
             <!-- Зона "список фильмов" -->
             <StackPanel Grid.Row="2">
                 <Border Padding="12" Background="LightGray" HorizontalAlignment="Stretch" Height="590" Opacity="0.6"
-                        Margin="30, 30" CornerRadius="12">
-                    <StackPanel>
+                        Margin="30, 30" CornerRadius="12" ClipToBounds="True">
+                    <StackPanel ClipToBounds="True">
                         <TextBlock Text="В ПРОКАТЕ" FontWeight="Bold" FontSize="50" Opacity="0.7" Margin="10"/>
+                        
+                        <!-- Список фильмов -->
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="590">
+                            <ItemsControl ItemsSource="{Binding Films}">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <StackPanel Orientation="Vertical" Margin="15, 0" />
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <local:FilmShowcase/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
 
-                        <ListBox Background="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                            
-                        </ListBox>
                     </StackPanel>
                 </Border>
             </StackPanel>

@@ -27,8 +27,6 @@ namespace EventSeatManager.ViewModels
         [Required(ErrorMessage = "Поле обязательно к заполнению!")]
         private string _registrPasswordInput = string.Empty;
 
-        [ObservableProperty]
-        private string _errorMessage = string.Empty;
 
         public RegistrationPageViewModel()
         {
@@ -40,12 +38,7 @@ namespace EventSeatManager.ViewModels
         {
             var result = await _loginService.CheckDataToCreateNewUser(RegistrNameInput, RegistrEmailInput, RegistrPasswordInput);
             if (result == true)
-            {
                 AppNavigationService.MainFrame!.Navigate(typeof(LoginPage));
-                ErrorMessage = string.Empty;
-            }
-            else
-                ErrorMessage = "Неверная почта или пароль! Повторите попытку!";
         }
 
         [RelayCommand]

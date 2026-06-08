@@ -31,6 +31,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <AvaloniaResource Update="Assets\Posters\Interstellar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AvaloniaResource>
+    <AvaloniaResource Update="Assets\Shrek.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AvaloniaResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Views\Pages\MainFilmSystemPage.axaml.cs">
       <DependentUpon>MainFilmSystemPage.axaml</DependentUpon>
     </Compile>
