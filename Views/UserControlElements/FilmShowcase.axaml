@@ -1,68 +1,50 @@
 <UserControl xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:vm="using:EventSeatManager.ViewModels"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:models="using:EventSeatManager.Core.Database.Models"
-             mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
-             x:Class="EventSeatManager.FilmShowcase"
-             x:DataType="models:Films">
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:local="using:EventSeatManager"
+			 xmlns:models="using:EventSeatManager.Models"
+			 xmlns:vm="using:EventSeatManager.ViewModels"
+			 mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+			 x:Class="EventSeatManager.FilmShowcase"
+			 x:DataType="models:Films">
 
-    <Border Background="White" CornerRadius="10" Margin="10" Padding="15"
-              BoxShadow="0 2 5 0 #30000000">
-        <Grid ShowGridLines="False" ColumnDefinitions="Auto, Auto" RowDefinitions="Auto, Auto">
-            <TextBlock  Text="{Binding Title}" FontSize="30" Foreground="Black" FontWeight="SemiBold"  Margin="5, 0"/>
 
-            <Image Grid.Column="0" Grid.Row="1" Height="350" HorizontalAlignment="Left"
-                   Source="/Assets/Shrek.jpg"/>
+	<Border Background="White" CornerRadius="10" Margin="10" Padding="15"
+			BoxShadow="0 2 5 0 #30000000">
+		<Grid ShowGridLines="False" ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto">
+			<!-- Левая часть (Название и постер фильма) -->
+			<TextBlock Grid.ColumnSpan="2" Text="{Binding Title}" FontSize="30" Foreground="Black" FontWeight="SemiBold" Margin="5, 0, 0, 10"/>
 
-            <StackPanel Grid.Column="1" Grid.Row="1" Margin="15, 30, 0, 0">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Режиссёр: " FontSize="18" FontWeight="Medium" Margin="0,10,0,5"/>
-                    <TextBlock Text="{Binding Author}" FontSize="18" FontWeight="Medium" Margin="0,10,0,5"/>
-                </StackPanel>
-                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+			<Image Grid.Row="1" Height="350" HorizontalAlignment="Left"
+				   Source="{Binding PosterImageToView^}"/>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Возрастной рейтинг: " FontSize="18" FontWeight="Medium"/>
-                    <TextBlock Text="{Binding AgeRating}" FontSize="18" FontWeight="Medium"/>
-                </StackPanel>
-                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
-                
-                <TextBlock Text="{Binding Description}" 
-                           TextWrapping="Wrap" FontSize="16" Margin="0,5,0,0"/>
-            </StackPanel>
-        </Grid>        
-    </Border>
+			<!-- Правая часть (Описание фильма) -->
+			<StackPanel Grid.Column="1" Grid.Row="1" Margin="25, 10, 0, 0">
+				<StackPanel Orientation="Horizontal">
+					<Border ClipToBounds="True" Background="Purple" Width="75" Height="50"
+							CornerRadius="14" HorizontalAlignment="Left">
+						<TextBlock Text="{Binding AgeRating, StringFormat='{}{0}+'}" HorizontalAlignment="Center" VerticalAlignment="Center"
+								   FontSize="26" FontWeight="SemiBold" Foreground="White"/>
+					</Border>
+
+					<TextBlock Text="{Binding Genre}" FontSize="24" FontWeight="SemiBold"
+							   VerticalAlignment="Center" Margin="15,0"/>
+				</StackPanel>
+
+				<!-- Режиссёры -->
+				<TextBlock Text="{Binding Author, StringFormat='Режиссёр: {0}'}" FontSize="24"
+						   FontWeight="Medium" Margin="0,10,0,5"/>
+				<Line StartPoint="0,0" EndPoint="700,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+
+				<!-- Возрастной рейтинг -->
+				<TextBlock Text="{Binding AgeRating, StringFormat='Хронометраж: {0}'}"
+						   FontSize="24" FontWeight="Medium"/>
+				<Line StartPoint="0,0" EndPoint="700,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+
+				<TextBlock Text="{Binding Description}"
+						   TextWrapping="Wrap" FontSize="24" FontWeight="SemiBold" Margin="0,15,0,0"/>
+			</StackPanel>
+		</Grid>
+	</Border>
 </UserControl>
-
-
-
-<!--
-
-    <Border Background="Transparent" CornerRadius="10" Margin="10" Padding="15"
-              BoxShadow="0 2 5 0 #30000000">
-        <Grid ShowGridLines="False" ColumnDefinitions="Auto, Auto" RowDefinitions="Auto, Auto">
-            <TextBlock  Text="1+1" FontSize="30" Foreground="Black" FontWeight="SemiBold"  Margin="5, 0"/>
-
-            <Image Grid.Column="0" Grid.Row="1" Height="350" HorizontalAlignment="Left"
-                   Source="/Assets/Posters/Intouchables.webp"/>
-
-            <StackPanel Grid.Column="1" Grid.Row="1" Margin="15, 30, 0, 0">
-                <StackPanel>
-                    <TextBlock Text="Режиссёр:" FontSize="18" FontWeight="Medium" Margin="0,10,0,5"/>
-                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
-                </StackPanel>
-
-                <StackPanel>
-                    <TextBlock Text="Возрастной рейтинг" FontSize="18" FontWeight="Medium"/>
-                    <Line StartPoint="0,0" EndPoint="500,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
-                </StackPanel>
-                <TextBlock Text="Пострадав в результате несчастного случая, богатый аристократ Филипп нанимает в помощники человека, который менее всего подходит для этой работы, – молодого жителя предместья Дрисса, только что освободившегося из тюрьмы. Несмотря на то, что Филипп прикован к инвалидному креслу, Дриссу удается привнести в размеренную жизнь аристократа дух приключений." 
-                           TextWrapping="Wrap" FontSize="16" Margin="0,5,0,0"/>
-            </StackPanel>
-        </Grid>        
-    </Border>
-
-
--->

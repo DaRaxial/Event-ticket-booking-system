@@ -23,32 +23,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EventSeatManager
-build_property.ProjectDir = C:\Users\JustY\OneDrive\Desktop\EventSeatManager\
+build_property.ProjectDir = C:\Users\Академия\Desktop\courselesson\EventSeatManager\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/App.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/Styles/LoginStyles.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Styles/LoginStyles.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/Views/MainWindow.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/Views/Pages/LoginPage.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/Pages/BookingPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/Views/Pages/MainFilmSystemPage.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/Pages/LoginPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/Views/Pages/ProfilePage.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/Pages/MainFilmSystemPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/Views/Pages/RegistrationPage.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/Pages/ProfilePage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/JustY/OneDrive/Desktop/EventSeatManager/Views/UserControlElements/FilmShowcase.axaml]
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/Pages/RegistrationPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/UserControlElements/BookingTicket.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/UserControlElements/FilmShowcase.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Академия/Desktop/courselesson/EventSeatManager/Views/UserControlElements/SeatButton.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1,9 +1,9 @@
 ﻿using FluentAvalonia.UI.Controls;
 
-namespace EventSeatManager.Services
+namespace EventSeatManager.Services.Navigation
 {
     // Класс-инструмент для навигации между страницами
-    public static class AppNavigationService 
+    public static class AppNavigationService
     {
         public static Frame? MainFrame { get; private set; }
 

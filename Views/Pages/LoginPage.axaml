@@ -7,6 +7,10 @@
              x:Class="EventSeatManager.LoginPage"
              x:DataType="vm:LoginPageViewModel">
 
+    <Design.DataContext>
+       <vm:LoginPageViewModel />
+    </Design.DataContext>
+
     <Border CornerRadius="0" Background="White">
         <Grid ColumnDefinitions="Auto, *" Margin="20">
 
@@ -53,7 +57,7 @@
                 <StackPanel Grid.Row="3" Orientation="Vertical">
                     <Button Command="{Binding LoginButtonCommand}" Content="Войти" CornerRadius="12" BorderThickness="2"
                             HorizontalAlignment="Center" FontSize="30" Foreground="rgba(255,255,255, 0.85)" Width="400"
-                            HorizontalContentAlignment="Center" Margin="0, 20, 0, 0">
+                            HorizontalContentAlignment="Center" Margin="0, 20, 0, 0" HotKey="Enter">
                         <Button.Background>
                             <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
                                 <GradientStop Color="Purple" Offset="0.1"/>

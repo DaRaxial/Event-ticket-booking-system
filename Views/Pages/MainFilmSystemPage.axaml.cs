@@ -14,12 +14,4 @@ public partial class MainFilmSystemPage : UserControl
         InitializeComponent();
         DataContext = new MainFilmSystemPageViewModel();
     }
-
-    private void GoToProfileButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        if (this.FindAncestorOfType<MainWindow>() is MainWindow mainWindow)
-        {
-            mainWindow.MainFrame.Navigate(typeof(ProfilePage));
-        }
-    }
 }

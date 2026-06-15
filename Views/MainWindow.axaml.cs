@@ -1,5 +1,5 @@
 using Avalonia.Controls;
-using EventSeatManager.Services;
+using EventSeatManager.Services.Navigation;
 using EventSeatManager.ViewModels;
 
 namespace EventSeatManager.Views

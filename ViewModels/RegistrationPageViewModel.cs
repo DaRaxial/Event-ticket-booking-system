@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using EventSeatManager.Services;
 using EventSeatManager.Services.AuthorizationService;
+using EventSeatManager.Services.Navigation;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 

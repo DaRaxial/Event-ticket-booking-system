@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace EventSeatManager.Core.Database.Models
+namespace EventSeatManager.Models
 {
     public class Tickets
     {

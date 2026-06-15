@@ -4,6 +4,6 @@ CREATE TABLE IF NOT EXISTS Films (
 	Age_rating INTEGER NOT NULL,
 	Genre VARCHAR (50) NOT NULL,
 	Author VARCHAR(100) NOT NULL,
-	Rating NUMERIC,
-	Release DATE
+	Description VARCHAR(230) NOT NULL,
+	Rating NUMERIC
 )

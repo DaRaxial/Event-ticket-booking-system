@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "EventSeatManager/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "4.0.24.2",
           "Avalonia": "11.3.12",
           "Avalonia.Desktop": "11.3.12",
           "Avalonia.Diagnostics": "11.3.12",
@@ -259,6 +260,25 @@
           "lib/net8.0/Avalonia.X11.dll": {
             "assemblyVersion": "11.3.12.0",
             "fileVersion": "11.3.12.0"
+          }
+        }
+      },
+      "AWSSDK.Core/4.0.8.1": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.8.1"
+          }
+        }
+      },
+      "AWSSDK.S3/4.0.24.2": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.8.1"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.24.2"
           }
         }
       },
@@ -667,6 +687,20 @@
       "sha512": "sha512-HR0zf0si52uu/hxPTIOI7gW68kPwz8D/fPYgioxISXAR+Yf6BH/TY/F/zrlu3LbptqU3ySoUmqkA9QJpXz04BQ==",
       "path": "avalonia.x11/11.3.12",
       "hashPath": "avalonia.x11.11.3.12.nupkg.sha512"
+    },
+    "AWSSDK.Core/4.0.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zu5g0zQ3WNZrL+0RqRSa2guAcLJqbFwK7mxfm6stx/b3cfOdqt/k9Y6c/8rxyHSeVf+8iUJGV4J7WhbLs9zOpA==",
+      "path": "awssdk.core/4.0.8.1",
+      "hashPath": "awssdk.core.4.0.8.1.nupkg.sha512"
+    },
+    "AWSSDK.S3/4.0.24.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dqHbMTPFb0rOtS+0OavQeNJYZ6Av+usbEfgEV7O7KGlVB7TwNpIYxeYSbcp9nMk3gwHQT30M29M1REWdCvf6Gw==",
+      "path": "awssdk.s3/4.0.24.2",
+      "hashPath": "awssdk.s3.4.0.24.2.nupkg.sha512"
     },
     "BCrypt.Net-Next/4.2.0": {
       "type": "package",

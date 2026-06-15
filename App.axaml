@@ -11,6 +11,8 @@
   
     <Application.Styles>
         <FluentTheme />
+        <Style Selector="Button.gradient:pointerover">
+        </Style>
     </Application.Styles>
 
 </Application>

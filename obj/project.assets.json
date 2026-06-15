@@ -341,6 +341,35 @@
           }
         }
       },
+      "AWSSDK.Core/4.0.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AWSSDK.S3/4.0.24.2": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[4.0.8.1, 5.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "BCrypt.Net-Next/4.2.0": {
         "type": "package",
         "compile": {
@@ -1204,6 +1233,53 @@
         "lib/netstandard2.0/Avalonia.X11.xml"
       ]
     },
+    "AWSSDK.Core/4.0.8.1": {
+      "sha512": "Zu5g0zQ3WNZrL+0RqRSa2guAcLJqbFwK7mxfm6stx/b3cfOdqt/k9Y6c/8rxyHSeVf+8iUJGV4J7WhbLs9zOpA==",
+      "type": "package",
+      "path": "awssdk.core/4.0.8.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.4.0.8.1.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net472/AWSSDK.Core.dll",
+        "lib/net472/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/4.0.24.2": {
+      "sha512": "dqHbMTPFb0rOtS+0OavQeNJYZ6Av+usbEfgEV7O7KGlVB7TwNpIYxeYSbcp9nMk3gwHQT30M29M1REWdCvf6Gw==",
+      "type": "package",
+      "path": "awssdk.s3/4.0.24.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.s3.4.0.24.2.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "images/AWSLogo.png",
+        "lib/net472/AWSSDK.S3.dll",
+        "lib/net472/AWSSDK.S3.xml",
+        "lib/net8.0/AWSSDK.S3.dll",
+        "lib/net8.0/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "BCrypt.Net-Next/4.2.0": {
       "sha512": "gwLD2KfCuwQesP17aVh4h6lpiMPEVt5Lbpndo0ej903hNUUTtyxt3ARdDjmuydBRTAUICc7OVKVbaOvc6SQYXA==",
       "type": "package",
@@ -1904,6 +1980,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "AWSSDK.S3 >= 4.0.24.2",
       "Avalonia >= 11.3.12",
       "Avalonia.Desktop >= 11.3.12",
       "Avalonia.Diagnostics >= 11.3.12",
@@ -1919,19 +1996,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JustY\\.nuget\\packages\\": {}
+    "C:\\Users\\Академия\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
+      "projectUniqueName": "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\EventSeatManager.csproj",
       "projectName": "EventSeatManager",
-      "projectPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
-      "packagesPath": "C:\\Users\\JustY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\obj\\",
+      "projectPath": "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\EventSeatManager.csproj",
+      "packagesPath": "C:\\Users\\Академия\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JustY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Академия\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1965,6 +2042,10 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[4.0.24.2, )"
+          },
           "Avalonia": {
             "target": "Package",
             "version": "[11.3.12, )"
@@ -2030,7 +2111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

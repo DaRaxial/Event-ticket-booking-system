@@ -317,3 +317,550 @@ C:\Users\JustY\OneDrive\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatMana
 C:\Users\JustY\OneDrive\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
 C:\Users\JustY\OneDrive\Desktop\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll
 C:\Users\JustY\OneDrive\Desktop\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll.config
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\Dapper.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\Npgsql.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+E:\CourseProject\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\EventSeatManager.exe
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll.config
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\EventSeatManager.deps.json
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\EventSeatManager.runtimeconfig.json
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\EventSeatManager.pdb
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Base.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Dialogs.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Metal.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.MicroCom.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.OpenGL.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Vulkan.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.DataGrid.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Desktop.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Native.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Skia.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Avalonia.X11.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Dapper.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\FluentAvalonia.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\MicroCom.Runtime.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Npgsql.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Академия\Desktop\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.AssemblyReference.cache
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\Avalonia\resources
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfoInputs.cache
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfo.cs
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.CoreCompileInputs.cache
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.sourcelink.json
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSea.F264DF93.Up2Date
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.dll
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\refint\EventSeatManager.dll
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.pdb
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
+C:\Users\Академия\Desktop\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.AssemblyReference.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\Avalonia\resources
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfoInputs.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfo.cs
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.CoreCompileInputs.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.sourcelink.json
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\refint\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.pdb
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\EventSeatManager.exe
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll.config
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\EventSeatManager.deps.json
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\EventSeatManager.runtimeconfig.json
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\EventSeatManager.pdb
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Base.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Dialogs.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Metal.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.MicroCom.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.OpenGL.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Vulkan.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.DataGrid.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Desktop.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Native.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Skia.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Avalonia.X11.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Dapper.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\FluentAvalonia.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\MicroCom.Runtime.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Npgsql.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSea.F264DF93.Up2Date
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.exe
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll.config
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.deps.json
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.runtimeconfig.json
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.pdb
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Base.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Dialogs.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Metal.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.MicroCom.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.OpenGL.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Vulkan.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.DataGrid.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Desktop.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Native.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Skia.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Avalonia.X11.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\AWSSDK.Core.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\AWSSDK.S3.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Dapper.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\FluentAvalonia.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\MicroCom.Runtime.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Npgsql.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.AssemblyReference.cache
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\Avalonia\resources
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfoInputs.cache
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfo.cs
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.CoreCompileInputs.cache
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.sourcelink.json
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSea.F264DF93.Up2Date
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\refint\EventSeatManager.dll
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.pdb
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
+C:\Users\Академия\Desktop\Новая папка (9)\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.AssemblyReference.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\Avalonia\resources
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfoInputs.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfo.cs
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.CoreCompileInputs.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.sourcelink.json
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.exe
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll.config
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.deps.json
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.runtimeconfig.json
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.pdb
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Base.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Dialogs.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Metal.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.MicroCom.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.OpenGL.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Vulkan.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.DataGrid.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Desktop.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Native.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Skia.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.X11.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\AWSSDK.Core.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\AWSSDK.S3.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Dapper.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\FluentAvalonia.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\MicroCom.Runtime.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Npgsql.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSea.F264DF93.Up2Date
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\refint\EventSeatManager.dll
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.pdb
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
+C:\Users\JustY\OneDrive\Desktop\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.exe
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll.config
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.deps.json
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.runtimeconfig.json
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\EventSeatManager.pdb
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Base.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Dialogs.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Metal.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.MicroCom.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.OpenGL.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Vulkan.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.DataGrid.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Desktop.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Native.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Skia.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Avalonia.X11.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\AWSSDK.Core.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\AWSSDK.S3.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Dapper.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\FluentAvalonia.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\HarfBuzzSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\MicroCom.Runtime.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Npgsql.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\SkiaSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.AssemblyReference.cache
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\Avalonia\resources
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfoInputs.cache
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfo.cs
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.CoreCompileInputs.cache
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.sourcelink.json
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSea.F264DF93.Up2Date
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\refint\EventSeatManager.dll
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.pdb
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
+E:\CourseProject\Новая папка (2)\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\EventSeatManager.exe
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll.config
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\EventSeatManager.deps.json
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\EventSeatManager.runtimeconfig.json
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\EventSeatManager.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\EventSeatManager.pdb
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Base.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Dialogs.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Markup.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Metal.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.MicroCom.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.OpenGL.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Vulkan.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Controls.DataGrid.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Desktop.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Native.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Skia.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.Win32.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Avalonia.X11.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\AWSSDK.Core.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\AWSSDK.S3.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Dapper.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\FluentAvalonia.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\MicroCom.Runtime.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Npgsql.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Diagnostics.EventLog.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.AssemblyReference.cache
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\Avalonia\resources
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfoInputs.cache
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.AssemblyInfo.cs
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.csproj.CoreCompileInputs.cache
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.sourcelink.json
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSea.F264DF93.Up2Date
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\refint\EventSeatManager.dll
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.pdb
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\EventSeatManager.genruntimeconfig.cache
+C:\Users\Академия\Desktop\courselesson\EventSeatManager\obj\Debug\net10.0\ref\EventSeatManager.dll

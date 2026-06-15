@@ -1,4 +1,4 @@
-﻿using EventSeatManager.Repository.Classes;
+﻿using EventSeatManager.Repository;
 using System;
 using System.Threading.Tasks;
 using BC = BCrypt.Net.BCrypt;
@@ -20,8 +20,11 @@ namespace EventSeatManager.Services.AuthorizationService
             {
                 var user = await _userRepository.GetByEmail(email.ToLower());
 
-                if (BC.Verify(password, user.Password))
+                if (user != null && BC.Verify(password, user.Password))
+                {
+                    UserSession.SetCurrentUser(user);
                     return true;
+                }
                 else
                     return false;
             }

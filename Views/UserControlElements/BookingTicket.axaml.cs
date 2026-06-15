@@ -1,14 +1,12 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using EventSeatManager.ViewModels;
-using System.Windows.Input;
 
 namespace EventSeatManager;
 
-public partial class FilmShowcase : UserControl
+public partial class BookingTicket : UserControl
 {
-    public FilmShowcase()
+    public BookingTicket()
     {
         InitializeComponent();
     }

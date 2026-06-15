@@ -1,0 +1,184 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:local="using:EventSeatManager"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:viewmodels="using:EventSeatManager.ViewModels"
+			 mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+			 x:Class="EventSeatManager.BookingPage"
+			 x:DataType="viewmodels:BookingPageViewModel">
+	<UserControl.Styles>
+		<Style Selector="Button.seats">
+			<Style Selector="^:pressed">
+				<Setter Property="Background" Value="Yellow"/>
+			</Style>
+			<Style Selector="^:pointerover">
+			</Style>
+		</Style>
+	</UserControl.Styles>
+	
+	<Border CornerRadius="12" Background="White">
+		<Grid ShowGridLines="False" RowDefinitions="Auto, *">
+			<!-- Верхняя панель управления -->
+			<Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top"
+					BoxShadow="0 5 10 0 #80000000">
+				<Border.Background>
+					<LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+						<GradientStop Color="rgba(41, 15, 59, 0.95)" Offset="0"/>
+						<GradientStop Color="rgba(59, 15, 41, 1)" Offset="1"/>
+					</LinearGradientBrush>
+				</Border.Background>
+
+				<Grid ColumnDefinitions="Auto, *">
+					<StackPanel Grid.Column="0" Orientation="Horizontal">
+						<TextBlock Text="𝓔𝓿𝓮𝓷𝓽 𝓢𝓮𝓪𝓽" FontSize="40" FontWeight="SemiLight"
+								   Margin="30, 10, 0, 0" Foreground="White"/>
+
+						<Button Command="{Binding GoToMainPageCommand}" Content="Афиша" Background="rgba(0,0,0,0)" FontSize="30"
+								FontWeight="SemiBold" Margin="500, 0, 0, 0" Foreground="White"/>
+					</StackPanel>
+
+					<StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Orientation="Horizontal">
+						<Ellipse Width="50" Height="50" Margin="0,0,10,0">
+							<Ellipse.Fill>
+								<ImageBrush Source="/Assets/AvatarStock.png"/>
+							</Ellipse.Fill>
+						</Ellipse>
+
+						<TextBlock Text="Профиль" Foreground="White" FontSize="30" FontWeight="SemiBold" Margin="0, 5, 20, 0"/>
+					</StackPanel>
+				</Grid>
+			</Border>
+			<Button Command="{Binding GoToProfilePageCommand}"
+					Width="210" Height="60" HorizontalAlignment="Right" Margin="12, 10" Background="rgba(0,0,0,0)"/>
+
+			<Border Grid.Row="1" Padding="12">
+				<Grid ColumnDefinitions="500, *">
+					<Border Background="LightGray" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+							CornerRadius="12" Opacity="0.6" Margin="20">
+						<Grid ShowGridLines="False" RowDefinitions="100, *">
+							<StackPanel Opacity="1.4">
+								<TextBlock Text="Выберите место" FontSize="33" FontWeight="Medium"
+										   HorizontalAlignment="Center" Margin="0, 40, 0, 0"/>
+							</StackPanel>
+							<Border Grid.Row="1" Background="Gray" Margin="20, 0, 20, 30" Height="400" CornerRadius="12" Opacity="0.5">
+								<Grid ColumnDefinitions="50, *, 50" ShowGridLines="False">
+									<Grid Grid.Column="1" ShowGridLines="False" RowDefinitions="50, *">
+										<Line Opacity="1" StartPoint="0,0" EndPoint="300,0" Stroke="Black" StrokeThickness="4"
+											  Margin="0, 35" HorizontalAlignment="Center"/>
+
+										<ItemsControl Grid.Row="1" ItemsSource="{Binding Seats}">
+											<ItemsControl.ItemsPanel>
+												<ItemsPanelTemplate>
+													<WrapPanel Orientation="Horizontal" Opacity="3"
+															   Margin="15, 15, 0, 0"/>
+												</ItemsPanelTemplate>
+											</ItemsControl.ItemsPanel>
+
+											<ItemsControl.ItemTemplate>
+												<DataTemplate>
+													<Grid>
+														<local:SeatButton/>
+														<Button Command="{Binding $parent[ItemsControl].DataContext.AddSeatPlaceCommand}"
+																CommandParameter="{Binding}" Classes="seats:pressed"
+																CornerRadius="25" Width="40" Height="40"
+																Margin="-3, -10, 0, 0" Background="Transparent"/>
+													</Grid>
+												</DataTemplate>
+											</ItemsControl.ItemTemplate>
+										</ItemsControl>
+									</Grid>
+									<StackPanel Opacity="2.5" VerticalAlignment="Center" Margin="0, 80">
+										<TextBlock Text="1" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="2" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="3" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="4" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="5" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="6" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+									</StackPanel>
+
+									<StackPanel Grid.Column="2" Opacity="2.5" VerticalAlignment="Center">
+										<TextBlock Text="1" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="2" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="3" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="4" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="5" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+										<TextBlock Text="6" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0, 11"/>
+									</StackPanel>
+								</Grid>
+							</Border>
+						</Grid>
+					</Border>
+
+					<Border Grid.Column="1" Background="LightGray" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+							CornerRadius="12" Opacity="0.6" Margin="20" Padding="12, 0, 12, 0">
+						<Grid ShowGridLines="False" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto" Opacity="1.4">
+							<TextBlock Text="{Binding Title}" FontSize="33" FontWeight="Bold"
+									   HorizontalAlignment="Center" Margin="0, 40, 0, 0" TextWrapping="Wrap"/>
+
+							<StackPanel Grid.Row="1">
+								<TextBlock Text="{Binding SessionDate, StringFormat='Дата сеанса: {0}'}" FontSize="25" FontWeight="Medium"
+										   Margin="15, 20, 0, 0"/>
+								<TextBlock Text="Цена билета: 500 ₽" FontSize="25" FontWeight="Medium"
+										   Margin="15, 10, 0, 0"/>
+								<Line StartPoint="0,0" EndPoint="550,0" Stroke="Black" StrokeThickness="1" Margin="0, 10, 0, 10"/>
+							</StackPanel>
+
+							<StackPanel Grid.Row="2">
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="Билеты" FontSize="33" FontWeight="Bold" HorizontalAlignment="Center" Margin="10, 0, 0, 5"/>
+									<Button Command="{Binding ClearTicketsCommand}" Content="Удалить билеты" FontSize="20" FontWeight="Medium" CornerRadius="12" 
+											Margin="235, 0, 0, 5" Background="MediumPurple"/>
+								</StackPanel>
+								<Border Height="220" HorizontalAlignment="Stretch" CornerRadius="12" Background="Gray"
+										Opacity="0.3">
+									<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="800">
+										<ItemsControl Grid.Row="1" ItemsSource="{Binding BookedSeats}">
+											<ItemsControl.ItemsPanel>
+												<ItemsPanelTemplate>
+													<WrapPanel Opacity="3"
+															   Margin="15, 15, 0, 0"/>
+												</ItemsPanelTemplate>
+											</ItemsControl.ItemsPanel>
+
+											<ItemsControl.ItemTemplate>
+												<DataTemplate>
+													<Grid>
+														<local:BookingTicket/>
+													</Grid>
+												</DataTemplate>
+											</ItemsControl.ItemTemplate>
+										</ItemsControl>
+									</ScrollViewer>
+								</Border>
+								<Line StartPoint="0,0" EndPoint="550,0" Stroke="Black" StrokeThickness="1" Margin="0, 10, 0, 10"/>
+							</StackPanel>
+
+							<StackPanel Grid.Row="3">
+								<StackPanel Orientation="Horizontal">
+									<StackPanel>
+										<TextBlock Text="К оплате:" FontSize="25" FontWeight="Medium"
+												   Margin="15, 10, 0, 0"/>
+
+										<TextBlock Text="{Binding TotalPrice, StringFormat='{}{0} ₽'}" FontSize="30" FontWeight="Bold"
+												   Margin="25, 0, 0, 0"/>
+									</StackPanel>
+
+									<Button CornerRadius="12" Content="Оплатить" FontSize="30" FontWeight="Medium"
+											Margin="250, 10, 0, 0" Foreground="rgba(255,255,255, 0.85)" Opacity="1.1">
+										<Button.Background>
+											<LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+												<GradientStop Color="Purple" Offset="0.1"/>
+												<GradientStop Color="rgba(36, 0, 97, 0.85)" Offset="1.0"/>
+											</LinearGradientBrush>
+										</Button.Background>
+									</Button>
+								</StackPanel>
+							</StackPanel>
+						</Grid>
+					</Border>
+				</Grid>
+			</Border>
+		</Grid>
+	</Border>
+</UserControl>

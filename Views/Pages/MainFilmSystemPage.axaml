@@ -1,78 +1,79 @@
 <UserControl xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:vm="using:EventSeatManager.ViewModels"
-             xmlns:views="clr-namespace:EventSeatManager.Views.UserControlElements"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="using:EventSeatManager"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
-             x:Class="EventSeatManager.MainFilmSystemPage"
-             x:DataType="vm:MainFilmSystemPageViewModel">
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:EventSeatManager.ViewModels"
+			 xmlns:views="clr-namespace:EventSeatManager.Views.UserControlElements"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:local="using:EventSeatManager"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+			 x:Class="EventSeatManager.MainFilmSystemPage"
+			 x:DataType="vm:MainFilmSystemPageViewModel">
 
-    <Border CornerRadius="12" Background="White">
-        <Grid ShowGridLines="False" RowDefinitions="Auto, Auto, *">
-            <!-- Верхняя панель управления -->
-            <Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top"
-                    BoxShadow="0 5 10 0 #80000000">
-                <Border.Background>
-                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
-                        <GradientStop Color="rgba(41, 15, 59, 0.95)" Offset="0"/>
-                        <GradientStop Color="rgba(59, 15, 41, 1)" Offset="1"/>
-                    </LinearGradientBrush>
-                </Border.Background>
+	<Border CornerRadius="12" Background="White">
+		<Grid ShowGridLines="False" RowDefinitions="Auto, *">
+			<!-- Верхняя панель управления -->
+			<Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top"
+					BoxShadow="0 5 10 0 #80000000">
+				<Border.Background>
+					<LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+						<GradientStop Color="rgba(41, 15, 59, 0.95)" Offset="0"/>
+						<GradientStop Color="rgba(59, 15, 41, 1)" Offset="1"/>
+					</LinearGradientBrush>
+				</Border.Background>
 
-                <Grid ColumnDefinitions="Auto, *">
-                    <StackPanel Grid.Column="0" Orientation="Horizontal">
-                        <TextBlock Text="𝓔𝓿𝓮𝓷𝓽 𝓢𝓮𝓪𝓽" FontSize="40" FontWeight="SemiLight"
-                                   Margin="30, 10, 0, 0" Foreground="White"/>
+				<Grid ColumnDefinitions="Auto, *">
+					<StackPanel Grid.Column="0" Orientation="Horizontal">
+						<TextBlock Text="𝓔𝓿𝓮𝓷𝓽 𝓢𝓮𝓪𝓽" FontSize="40" FontWeight="SemiLight"
+								   Margin="30, 10, 0, 0" Foreground="White"/>
 
-                        <Button Content="Афиша" Background="rgba(0,0,0,0)" FontSize="30" FontWeight="SemiBold"
-                                Margin="500, 0, 0, 0" Foreground="White"/>
-                    </StackPanel>
-                    
-                    <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Orientation="Horizontal">
-                        <Ellipse Width="50" Height="50" Margin="0,0,10,0">
-                            <Ellipse.Fill>
+						<Button Content="Афиша" Background="rgba(0,0,0,0)" FontSize="30" FontWeight="SemiBold"
+								Margin="500, 0, 0, 0" Foreground="White"/>
+					</StackPanel>
+
+					<StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Orientation="Horizontal">
+						<Ellipse Width="50" Height="50" Margin="0,0,10,0">
+							<Ellipse.Fill>
 								<ImageBrush Source="/Assets/AvatarStock.png"/>
-                            </Ellipse.Fill>
-                        </Ellipse>
-                        
-                        <TextBlock Text="Профиль" Foreground="White" FontSize="30" FontWeight="SemiBold" Margin="0, 5, 20, 0"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
-            <StackPanel>
-				<Button x:Name="GoToProfileButton" Click="GoToProfileButton_Click"
-                        Width="210" Height="60" HorizontalAlignment="Right" Margin="12, 10" Background="rgba(0,0,0,0)"/>
-            </StackPanel>
+							</Ellipse.Fill>
+						</Ellipse>
 
-            <!-- Зона "список фильмов" -->
-            <StackPanel Grid.Row="2">
-                <Border Padding="12" Background="LightGray" HorizontalAlignment="Stretch" Height="590" Opacity="0.6"
-                        Margin="30, 30" CornerRadius="12" ClipToBounds="True">
-                    <StackPanel ClipToBounds="True">
-                        <TextBlock Text="В ПРОКАТЕ" FontWeight="Bold" FontSize="50" Opacity="0.7" Margin="10"/>
-                        
-                        <!-- Список фильмов -->
-                        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="590">
-                            <ItemsControl ItemsSource="{Binding Films}">
-                                <ItemsControl.ItemsPanel>
-                                    <ItemsPanelTemplate>
-                                        <StackPanel Orientation="Vertical" Margin="15, 0" />
-                                    </ItemsPanelTemplate>
-                                </ItemsControl.ItemsPanel>
-                                
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate>
-                                        <local:FilmShowcase/>
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </ScrollViewer>
+						<TextBlock Text="Профиль" Foreground="White" FontSize="30" FontWeight="SemiBold" Margin="0, 5, 20, 0"/>
+					</StackPanel>
+				</Grid>
+			</Border>
+			<Button Command="{Binding GoToProfilePageCommand}"
+					Width="210" Height="60" HorizontalAlignment="Right" Margin="12, 10" Background="rgba(0,0,0,0)"/>
 
-                    </StackPanel>
-                </Border>
-            </StackPanel>
-        </Grid>
-    </Border>
+			<!-- Зона "список фильмов" -->
+			<Border Grid.Row="1" Padding="12" Background="LightGray" HorizontalAlignment="Stretch" Opacity="0.6"
+					Margin="30, 30" CornerRadius="12">
+				<Grid RowDefinitions="Auto, *">
+					<TextBlock Grid.Row="0" Text="В ПРОКАТЕ" FontWeight="Bold" FontSize="50" Opacity="0.7" Margin="10"/>
+
+					<!-- Список фильмов -->
+					<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="800">
+						<ItemsControl ItemsSource="{Binding Films}">
+							<ItemsControl.ItemsPanel>
+								<ItemsPanelTemplate>
+									<StackPanel Opacity="1.5"/>
+								</ItemsPanelTemplate>
+							</ItemsControl.ItemsPanel>
+
+							<ItemsControl.ItemTemplate>
+								<DataTemplate>
+									<Grid>
+										<local:FilmShowcase/>
+										<Button Grid.RowSpan="2" Grid.ColumnSpan="2" Background="Transparent" CornerRadius="12"
+												HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+												Command="{Binding $parent[ItemsControl].DataContext.GoToBookingPageCommand}"
+												CommandParameter="{Binding}"/>
+									</Grid>
+								</DataTemplate>
+							</ItemsControl.ItemTemplate>
+						</ItemsControl>
+					</ScrollViewer>
+				</Grid>
+			</Border>
+		</Grid>
+	</Border>
 </UserControl>

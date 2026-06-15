@@ -1,33 +1,15 @@
 ﻿using Dapper;
-using EventSeatManager.Core.Database.Models;
+using EventSeatManager.Models;
+using EventSeatManager.Services;
 using Npgsql;
 using System.Configuration;
 using System.Threading.Tasks;
 
-namespace EventSeatManager.Repository.Classes
+namespace EventSeatManager.Repository
 {
     public class UserRepository
     {
         readonly private string _connString = ConfigurationManager.ConnectionStrings["postgresDb"].ConnectionString;
-
-        /*// Создание таблицы в случае отсутсвия
-        async public Task<bool> CreateTableUsers()
-        {
-            try
-            {
-                await using var conn = new NpgsqlConnection(_connString);
-                await conn.OpenAsync();
-                string sql = File.ReadAllText("/SqlRequests/CreateTableUsers.sql");
-
-                await conn.ExecuteAsync(sql);
-                return true;
-            }
-            catch (NpgsqlException ex)
-            {
-                Console.WriteLine($"Проблема с созданием таблицы Users: {ex.Message}");
-                return false;
-            }
-        }*/
 
         public async Task<Users> GetByEmail(string email)
         {
@@ -36,6 +18,12 @@ namespace EventSeatManager.Repository.Classes
 
             string getUserByEmailCmd = "SELECT * FROM Users WHERE Email = @email";
             var result = await conn.QueryFirstOrDefaultAsync<Users>(getUserByEmailCmd, new { Email = email });
+
+            if (result != null)
+                UserSession.SetCurrentUser(result);
+            else
+                return null;
+
             return result;
         }
 

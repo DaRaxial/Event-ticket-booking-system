@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj": {}
+    "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\EventSeatManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj": {
+    "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\EventSeatManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
+        "projectUniqueName": "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\EventSeatManager.csproj",
         "projectName": "EventSeatManager",
-        "projectPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\EventSeatManager.csproj",
-        "packagesPath": "C:\\Users\\JustY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JustY\\OneDrive\\Desktop\\EventSeatManager\\obj\\",
+        "projectPath": "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\EventSeatManager.csproj",
+        "packagesPath": "C:\\Users\\Академия\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Академия\\Desktop\\courselesson\\EventSeatManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JustY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Академия\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[4.0.24.2, )"
+            },
             "Avalonia": {
               "target": "Package",
               "version": "[11.3.12, )"
@@ -113,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

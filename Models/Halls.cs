@@ -1,4 +1,4 @@
-﻿namespace EventSeatManager.Core.Database.Models
+﻿namespace EventSeatManager.Models
 {
     public class Halls
     {
