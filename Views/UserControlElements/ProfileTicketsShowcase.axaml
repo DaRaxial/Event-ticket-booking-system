@@ -1,0 +1,57 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:models="using:EventSeatManager.Models"
+			 mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+			 x:Class="EventSeatManager.ProfileTicketsShowcase"
+			 x:DataType="models:FilmsAndTickets">
+
+	<Border Background="White" CornerRadius="10" Margin="10" Padding="15"
+			BoxShadow="0 2 5 0 #30000000">
+
+		<Grid RowDefinitions="Auto, Auto">
+			<Grid ColumnDefinitions="Auto, Auto">
+				<Image Grid.Row="1" Height="75" Width="50" HorizontalAlignment="Left"
+					   Source="{Binding FilmPosterImageToView^}"/>
+
+				<StackPanel Grid.Column="1">
+					<TextBlock Text="{Binding FilmTitle}" FontSize="20" FontWeight="SemiBold"
+							   VerticalAlignment="Center" Margin="10,0"/>
+
+					<StackPanel Orientation="Horizontal" Margin="10, 10" VerticalAlignment="Bottom">
+						<Border ClipToBounds="True" Background="Purple" Width="40" Height="30"
+								CornerRadius="8" HorizontalAlignment="Left">
+							<TextBlock Text="{Binding FilmAgeRating, StringFormat='{}{0}+'}" HorizontalAlignment="Center" VerticalAlignment="Center"
+									   FontSize="18" FontWeight="SemiBold" Foreground="White"/>
+						</Border>
+
+						<TextBlock Text="{Binding FilmGenre}" FontSize="20" FontWeight="SemiBold"
+								   VerticalAlignment="Center" Margin="10,0"/>
+					</StackPanel>
+				</StackPanel>
+			</Grid>
+
+			<Grid Grid.Row="1" ColumnDefinitions="Auto, Auto" RowDefinitions="Auto, Auto">
+				<Line StartPoint="0,0" EndPoint="480,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+
+				<StackPanel Grid.Row="1">
+					<TextBlock Text="{Binding TicketSessionDate, StringFormat='Дата сеанса: {0}'}" FontSize="18" FontWeight="SemiBold"
+							   VerticalAlignment="Center" Margin="0,5"/>
+					<TextBlock Text="{Binding TicketSpecialId, StringFormat='ID билета: {0}'}" FontSize="18" FontWeight="SemiBold"
+							   VerticalAlignment="Center" Margin="0,5"/>
+					<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="150">
+						<StackPanel Orientation="Vertical">
+							<TextBlock Text="{Binding SeatPlacesDisplay, StringFormat='{}{0} место'}" Margin="0, 5" FontSize="18" FontWeight="SemiBold"/>
+							<TextBlock Text="{Binding RowPlacesDisplay, StringFormat='{}{0} ряд'}" Margin="0, 5" FontSize="18" FontWeight="SemiBold"/>
+						</StackPanel>
+					</ScrollViewer>
+				</StackPanel>
+			</Grid>
+		</Grid>
+	</Border>
+</UserControl>
+<!--
+<Line StartPoint="0,0" EndPoint="700,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
+
+-->

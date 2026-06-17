@@ -4,6 +4,7 @@ using EventSeatManager.Repository;
 using EventSeatManager.Repository.YandexCloud;
 using EventSeatManager.Utils;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -48,6 +49,9 @@ namespace EventSeatManager.Services
                 return new ObservableCollection<Films>(); // пустой список фильмов
             }
         }
+
+        public async Task GetDataAndUpdateFilmTable(List<int> seatPlace, int filmId)
+            => await _filmsRepository.InsertBookedSeatsToFilm(seatPlace, filmId);
 
         public void GetFilmData(Films film)
         {

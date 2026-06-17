@@ -9,7 +9,7 @@
 	<StackPanel>
 		<Button CornerRadius="20" Width="35" Height="35" Content="{Binding Id}" FontWeight="Medium"
 				HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="rgba(122, 22, 156, 1)"
-				Margin="0, 0, 15, 10" Foreground="White">
+				Margin="0, 0, 15, 10" Foreground="White" Click="AddBookSeat">
 		</Button>
 	</StackPanel>
 </UserControl>

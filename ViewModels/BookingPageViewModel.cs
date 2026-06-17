@@ -1,22 +1,29 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using Avalonia.Controls;
+using Avalonia.VisualTree;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Dapper;
 using EventSeatManager.Models;
 using EventSeatManager.Services;
 using EventSeatManager.Services.Navigation;
+using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace EventSeatManager.ViewModels
 {
     public partial class BookingPageViewModel : ObservableObject
     {
         // Поля и свойства
-        //private readonly SeatsService _seatsService = new();
+        private readonly TicketsService _ticketsService = new();
         private readonly FilmsService _filmsService = new();
+        private readonly UserProfileService _userService = new();
 
         [ObservableProperty]
         private ObservableCollection<Seats>? _seats = new();
         [ObservableProperty]
-        private ObservableCollection<Seats>? _bookedSeats = new();
+        private ObservableCollection<Seats>? _bookedSeats = new() { };
 
         private const decimal _ticketPrice = 500;
 
@@ -31,6 +38,8 @@ namespace EventSeatManager.ViewModels
 
         [ObservableProperty]
         private decimal _totalPrice;
+
+
 
         private int _filmId;
 
@@ -80,9 +89,34 @@ namespace EventSeatManager.ViewModels
         }
 
         [RelayCommand]
-        private void ConfirmPayment()
+        private async void ConfirmPayment()
         {
+            if (BookedSeats != null)
+            {
+                if (BookedSeats == null || !BookedSeats.Any())
+                    return;
 
+                var seatPlaces = BookedSeats?.Select(s => s.Id).ToList();
+                var rowPlaces = BookedSeats?.Select(r => r.Row).ToList();
+
+                try
+                {
+                    bool balanceDeducted = await _userService.BalanceDecreaseFromBooking(TotalPrice);
+
+                    if (!balanceDeducted)
+                        return;
+
+                    await _ticketsService?.GetDataAndMakeTicketRequest(SessionDate, seatPlaces, rowPlaces, _filmId);
+                    await _filmsService?.GetDataAndUpdateFilmTable(seatPlaces, _filmId);
+
+
+                    ClearTickets();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при оплате: {ex.Message}");
+                }
+            }
         }
 
 
@@ -94,11 +128,11 @@ namespace EventSeatManager.ViewModels
             TotalPrice = 0;
             BookedSeats?.Clear();
         }
-        
+
         // Верхняя панель (навигация)
         [RelayCommand]
         private void GoToProfilePage() => AppNavigationService.MainFrame!.Navigate(typeof(ProfilePage));
-        
+
         [RelayCommand]
         private void GoToMainPage() => AppNavigationService.MainFrame!.Navigate(typeof(MainFilmSystemPage));
     }

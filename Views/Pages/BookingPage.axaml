@@ -79,10 +79,10 @@
 												<DataTemplate>
 													<Grid>
 														<local:SeatButton/>
-														<Button Command="{Binding $parent[ItemsControl].DataContext.AddSeatPlaceCommand}"
+														<!--<Button Command="{Binding $parent[ItemsControl].DataContext.AddSeatPlaceCommand}"
 																CommandParameter="{Binding}" Classes="seats:pressed"
 																CornerRadius="25" Width="40" Height="40"
-																Margin="-3, -10, 0, 0" Background="Transparent"/>
+																Margin="-3, -10, 0, 0" Background="Transparent"/>-->
 													</Grid>
 												</DataTemplate>
 											</ItemsControl.ItemTemplate>
@@ -164,7 +164,7 @@
 												   Margin="25, 0, 0, 0"/>
 									</StackPanel>
 
-									<Button CornerRadius="12" Content="Оплатить" FontSize="30" FontWeight="Medium"
+									<Button Command="{Binding ConfirmPaymentCommand}" CornerRadius="12" Content="Оплатить" FontSize="30" FontWeight="Medium"
 											Margin="250, 10, 0, 0" Foreground="rgba(255,255,255, 0.85)" Opacity="1.1">
 										<Button.Background>
 											<LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">

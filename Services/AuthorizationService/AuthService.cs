@@ -22,7 +22,7 @@ namespace EventSeatManager.Services.AuthorizationService
 
                 if (user != null && BC.Verify(password, user.Password))
                 {
-                    UserSession.SetCurrentUser(user);
+                    UserSessionService.SetCurrentUser(user);
                     return true;
                 }
                 else

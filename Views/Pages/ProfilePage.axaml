@@ -1,108 +1,141 @@
 <UserControl xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:vm="using:EventSeatManager.ViewModels"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:viewmodels="using:EventSeatManager.ViewModels"
-             mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
-             x:Class="EventSeatManager.ProfilePage"
-             x:DataType="vm:ProfilePageViewModel">
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:EventSeatManager.ViewModels"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:local="using:EventSeatManager"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:viewmodels="using:EventSeatManager.ViewModels"
+			 mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
+			 x:Class="EventSeatManager.ProfilePage"
+			 x:DataType="vm:ProfilePageViewModel">
 
-    <Border CornerRadius="12" Background="White">
-        <Grid ShowGridLines="False" RowDefinitions="Auto, Auto, *">
-            <!-- Верхняя панель управления -->
-            <Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top" BoxShadow="0 5 10 0 #80000000">
-                <Border.Background>
-                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
-                        <GradientStop Color="rgba(41, 15, 59, 0.95)" Offset="0"/>
-                        <GradientStop Color="rgba(59, 15, 41, 1)" Offset="1"/>
-                    </LinearGradientBrush>
-                </Border.Background>
+	<Border CornerRadius="12" Background="White">
+		<Grid ShowGridLines="False" RowDefinitions="Auto, Auto, *">
+			<!-- Верхняя панель управления -->
+			<Border Grid.Row="0" HorizontalAlignment="Stretch" Height="80" VerticalAlignment="Top" BoxShadow="0 5 10 0 #80000000">
+				<Border.Background>
+					<LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+						<GradientStop Color="rgba(41, 15, 59, 0.95)" Offset="0"/>
+						<GradientStop Color="rgba(59, 15, 41, 1)" Offset="1"/>
+					</LinearGradientBrush>
+				</Border.Background>
 
-                <Grid ColumnDefinitions="Auto, *">
-                    <StackPanel Grid.Column="0" Orientation="Horizontal">
-                        <TextBlock Text="𝓔𝓿𝓮𝓷𝓽 𝓢𝓮𝓪𝓽" FontSize="40" FontWeight="SemiLight"
-                                   Margin="30, 10, 0, 0" Foreground="White"/>
+				<Grid ColumnDefinitions="Auto, *">
+					<StackPanel Grid.Column="0" Orientation="Horizontal">
+						<TextBlock Text="𝓔𝓿𝓮𝓷𝓽 𝓢𝓮𝓪𝓽" FontSize="40" FontWeight="SemiLight"
+								   Margin="30, 10, 0, 0" Foreground="White"/>
 
-                        <Button x:Name="GoToMainPageButton" Click="GoToMainPageButton_Click"
-                                Content="Афиша" Background="rgba(0,0,0,0)" FontSize="30" FontWeight="SemiBold"
-                                Margin="500, 0, 0, 0" Foreground="White"/>
-                    </StackPanel>
-                    
-                    <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Orientation="Horizontal">
-                        <Ellipse Width="50" Height="50" Margin="0,0,10,0">
-                            <Ellipse.Fill>
+						<Button x:Name="GoToMainPageButton" Click="GoToMainPageButton_Click"
+								Content="Афиша" Background="rgba(0,0,0,0)" FontSize="30" FontWeight="SemiBold"
+								Margin="500, 0, 0, 0" Foreground="White"/>
+					</StackPanel>
+
+					<StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Orientation="Horizontal">
+						<Ellipse Width="50" Height="50" Margin="0,0,10,0">
+							<Ellipse.Fill>
 								<ImageBrush Source="/Assets/AvatarStock.png"/>
-                            </Ellipse.Fill>
-                        </Ellipse>
-                        
-                        <TextBlock Text="Профиль" Foreground="White" FontSize="30" FontWeight="SemiBold" Margin="0, 5, 20, 0"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
+							</Ellipse.Fill>
+						</Ellipse>
 
-            <!-- Зона "профиля" -->
-            <Grid Grid.Row="2" ColumnDefinitions="Auto, Auto" ShowGridLines="False">
+						<TextBlock Text="Профиль" Foreground="White" FontSize="30" FontWeight="SemiBold" Margin="0, 5, 20, 0"/>
+					</StackPanel>
+				</Grid>
+			</Border>
+
+			<!-- Зона "профиля" -->
+			<Grid Grid.Row="2" ColumnDefinitions="Auto, Auto" ShowGridLines="False">
 				<Grid Grid.Column="0" ShowGridLines="False" RowDefinitions="Auto, Auto">
-                    <!-- Карточка "основная информация" -->
-                    <StackPanel Grid.Row="0">
+					<!-- Карточка "основная информация" -->
+					<StackPanel Grid.Row="0">
 						<Border Padding="12" Background="LightGray" Width="500" Height="300" Opacity="0.6"
-                                Margin="20, 30" CornerRadius="12">
-                            <StackPanel Opacity="1.3">
+								Margin="20, 30" CornerRadius="12">
+							<StackPanel Opacity="1.3">
 								<TextBlock Text="Основная информация" HorizontalAlignment="Center" FontWeight="Bold" FontSize="30"/>
-                                
-                                <Line StartPoint="0,0" EndPoint="475,0" Stroke="Black" 
-                                      StrokeThickness="1" Margin="0, 5"/>
 
-                                <StackPanel Orientation="Horizontal" Margin="0, 25, 0, 10">
-                                    <TextBlock Text="Имя: " FontSize="30" FontWeight="Bold"/>
+								<Line StartPoint="0,0" EndPoint="475,0" Stroke="Black"
+									  StrokeThickness="1" Margin="0, 5"/>
+
+								<StackPanel Orientation="Horizontal" Margin="0, 25, 0, 10">
+									<TextBlock Text="Имя: " FontSize="30" FontWeight="Bold"/>
 									<TextBlock Text="{Binding FirstName, FallbackValue=None}" FontSize="30" FontWeight="SemiBold"/>
-                                </StackPanel>
+								</StackPanel>
 
-                                <StackPanel Orientation="Horizontal" Margin="0, 10">
-                                    <TextBlock Text="Почта: " FontSize="30" FontWeight="Bold"/>
-                                    <TextBlock Text="{Binding Email, FallbackValue=None}" FontSize="30" FontWeight="SemiBold"/>
-                                </StackPanel>
+								<StackPanel Orientation="Horizontal" Margin="0, 10">
+									<TextBlock Text="Почта: " FontSize="30" FontWeight="Bold"/>
+									<TextBlock Text="{Binding Email, FallbackValue=None}" FontSize="30" FontWeight="SemiBold"/>
+								</StackPanel>
 
-                                <StackPanel Orientation="Horizontal" Margin="0, 10">
-                                    <TextBlock Text="Куплено билетов: " FontSize="30" FontWeight="Bold"/>
-                                    <TextBlock Text="{Binding CountOfTickets, FallbackValue=None}" FontSize="30" FontWeight="SemiBold"/>
-                                </StackPanel>
-                            </StackPanel>
-                        </Border>
-                    </StackPanel>
+								<StackPanel Orientation="Horizontal" Margin="0, 10">
+									<TextBlock Text="Куплено билетов: " FontSize="30" FontWeight="Bold"/>
+									<TextBlock Text="{Binding CountOfTickets, FallbackValue=None}" FontSize="30" FontWeight="SemiBold"/>
+								</StackPanel>
+							</StackPanel>
+						</Border>
+					</StackPanel>
 
-                    <!-- Карточка "кошелёк" -->
-                    <StackPanel Grid.Row="1" Opacity="1.4">
+					<!-- Карточка "кошелёк" -->
+					<StackPanel Grid.Row="1" Opacity="1.4">
 						<Border Padding="12" Background="LightGray" Width="500" Height="250" Opacity="0.6"
-                                Margin="0, -10" CornerRadius="12">
-                            <StackPanel>
+								Margin="0, -10" CornerRadius="12" ClipToBounds="True">
+							<StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 								<TextBlock Text="Кошелёк" HorizontalAlignment="Center" FontWeight="Bold" FontSize="30"/>
-                                
-                                <Line StartPoint="0,0" EndPoint="475,0" Stroke="Black" 
-                                      StrokeThickness="1" Margin="0, 5"/>
-                                
-                                <TextBlock Text="На счету: " FontSize="30" FontWeight="SemiBold" Margin="0, 10"/>
 
-                                <Button Classes="gradient" Width="250" Content="Пополнить" 
-                                        FontSize="30" HorizontalContentAlignment="Center" Margin="1"/>
-                            </StackPanel>
-                        </Border>
-                    </StackPanel>
-                </Grid>
+								<Line StartPoint="0,0" EndPoint="475,0" Stroke="Black"
+									  StrokeThickness="1" Margin="0, 5"/>
 
-                <!-- Карточка "Заказы (забронированные фильмы)" -->
-                <StackPanel Grid.Column="1" Opacity="1.4">
-                    <Border Padding="12" Background="LightGray" Width="550" Height="572" Opacity="0.6"
-                            Margin="30, 30" CornerRadius="12">
-                        <StackPanel>
-                            <TextBlock Text="Заказы (билеты)" FontWeight="Bold" FontSize="30" HorizontalAlignment="Center"/>
-                            <Line StartPoint="0,0" EndPoint="525,0" Stroke="Black" 
-                                  StrokeThickness="1" Margin="0, 5"/>
-                        </StackPanel>
-                    </Border>
-                </StackPanel>
-            </Grid>
-        </Grid>
-    </Border>
+								<TextBlock Text="{Binding Balance, StringFormat='На счету: {0} ₽'}" FontSize="30" FontWeight="SemiBold" Margin="0, 10"/>
+
+								<TextBlock Text="* Действует акция 'бесплатное кино'" FontSize="25" FontWeight="SemiBold" Margin="0, 0, 0, 25"/>
+
+								<Button Content="Пополнить на 1000 ₽" FontSize="30" CornerRadius="12"
+										HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+										Command="{Binding AddToBalanceCommand}" Foreground="White">
+									<Button.Background>
+										<LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+											<GradientStop Color="Purple" Offset="0.1"/>
+											<GradientStop Color="rgba(36, 0, 97, 0.85)" Offset="1.0"/>
+										</LinearGradientBrush>
+									</Button.Background>
+								</Button>
+							</StackPanel>
+						</Border>
+					</StackPanel>
+				</Grid>
+
+				<!-- Карточка "Заказы (забронированные фильмы)" -->
+				<StackPanel Grid.Column="1" Opacity="1.4">
+					<Border Padding="12" Background="LightGray" Width="550" Height="580" Opacity="0.6"
+							Margin="30, 30" CornerRadius="12" ClipToBounds="True">
+						<StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock Text="Заказы (билеты)" FontWeight="Bold" FontSize="30" HorizontalAlignment="Center"/>
+								<Button Content="Обновить" FontWeight="Medium" FontSize="25" Margin="130, 0" CornerRadius="12"
+										Command="{Binding UpdateTicketListCommand}"/>
+							</StackPanel>
+							<Line StartPoint="0,0" EndPoint="525,0" Stroke="Black"
+								  StrokeThickness="1" Margin="0, 5"/>
+
+							<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="520">
+								<ItemsControl ItemsSource="{Binding TicketData}">
+									<ItemsControl.ItemsPanel>
+										<ItemsPanelTemplate>
+											<VirtualizingStackPanel Opacity="1"/>
+										</ItemsPanelTemplate>
+									</ItemsControl.ItemsPanel>
+
+									<ItemsControl.ItemTemplate>
+										<DataTemplate>
+											<Grid>
+												<local:ProfileTicketsShowcase/>
+											</Grid>
+										</DataTemplate>
+									</ItemsControl.ItemTemplate>
+								</ItemsControl>
+							</ScrollViewer>
+						</StackPanel>
+					</Border>
+				</StackPanel>
+			</Grid>
+		</Grid>
+	</Border>
 </UserControl>

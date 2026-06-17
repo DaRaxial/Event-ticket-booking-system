@@ -1,6 +1,8 @@
-﻿namespace EventSeatManager.Models
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+
+namespace EventSeatManager.Models
 {
-    public class Seats
+    public partial class Seats : ObservableObject
     {
         public int Id { get; set; }
         public int Row { get; set; } = 1;
