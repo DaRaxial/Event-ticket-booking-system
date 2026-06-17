@@ -39,7 +39,8 @@ namespace EventSeatManager.ViewModels
         [ObservableProperty]
         private decimal _totalPrice;
 
-
+        [ObservableProperty]
+        private string _errorMessage = string.Empty;
 
         private int _filmId;
 
@@ -104,7 +105,11 @@ namespace EventSeatManager.ViewModels
                     bool balanceDeducted = await _userService.BalanceDecreaseFromBooking(TotalPrice);
 
                     if (!balanceDeducted)
+                    {
+                        ErrorMessage = "Недостаточно\n      средств";
                         return;
+                    }
+                    ErrorMessage = string.Empty;
 
                     await _ticketsService?.GetDataAndMakeTicketRequest(SessionDate, seatPlaces, rowPlaces, _filmId);
                     await _filmsService?.GetDataAndUpdateFilmTable(seatPlaces, _filmId);

@@ -6,4 +6,4 @@ obj/
 *.suo
 *.nupkg
 *.lock.json
-"Repository/YandexCloud/YandexCloudStorageRepository.cs" 
+Repository/YandexCloud/YandexCloudStorageRepository.cs

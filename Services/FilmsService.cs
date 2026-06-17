@@ -37,6 +37,7 @@ namespace EventSeatManager.Services
                         Genre = film.Genre,
                         Description = film.Description,
                         AgeRating = film.AgeRating,
+                        Duration = film.Duration,
                         PosterImageToView = ImageHelper.LoadFromWeb(new Uri(_ycStorageRepo.GetObjectUrl(film.PosterPath))),
                         SessionDate = film.SessionDate,
                     }));

@@ -38,7 +38,7 @@
 				<Line StartPoint="0,0" EndPoint="700,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
 
 				<!-- Возрастной рейтинг -->
-				<TextBlock Text="{Binding AgeRating, StringFormat='Хронометраж: {0}'}"
+				<TextBlock Text="{Binding Duration, StringFormat='Хронометраж: {0} мин.'}"
 						   FontSize="24" FontWeight="Medium"/>
 				<Line StartPoint="0,0" EndPoint="700,0" Stroke="Black" StrokeThickness="0.5" Margin="0, 5"/>
 
