@@ -23,14 +23,13 @@ namespace EventSeatManager.Services
 
         public async Task GetAllDataToDisplay()
         {
-            _ticketDataService?.Clear();
+            TicketDataService?.Clear();
 
-            try
             {
                 var films = await _filmsRepository.GetAllFilms();
                 var tickets = await _ticketRepository.GetDataForProfile();
 
-                var userTickets = tickets.Where(t => t.BuyerId == UserSessionService.CurrentUser.Id).ToList();
+                var userTickets = tickets.Where(t => t.BuyerId == UserSessionService.CurrentUser!.Id).ToList();
 
                 foreach (var ticket in userTickets)
                 {
@@ -52,7 +51,7 @@ namespace EventSeatManager.Services
                             TicketRowPlace = new ObservableCollection<int>(ticket.RowPlace)
                         };
                         combinedData.UpdateDisplayStrings();
-                        _ticketDataService?.Add(combinedData);
+                        TicketDataService?.Add(combinedData);
                     }
                     catch (Exception ex)
                     {
@@ -60,18 +59,14 @@ namespace EventSeatManager.Services
                     }
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Ошибка загрузки данных: {ex.Message}");
-            }
         }
 
         public async Task UpdateBalance(decimal balance)
-            => _userRepository.UpdateUserBalance(UserSessionService.CurrentUser!.Id, balance);
+            => await _userRepository.UpdateUserBalance(UserSessionService.CurrentUser!.Id, balance);
 
         public async Task<decimal> GetNewBalance()
         {
-            var user = await _userRepository.GetAllUserDataById(UserSessionService.CurrentUser.Id);
+            var user = await _userRepository.GetAllUserDataById(UserSessionService.CurrentUser!.Id);
             if (user != null)
             {
                 UserSessionService.SetCurrentUser(user);

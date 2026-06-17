@@ -92,7 +92,7 @@ namespace EventSeatManager.ViewModels
         }
 
         [RelayCommand]
-        private async void ConfirmPayment()
+        private async Task ConfirmPayment()
         {
             if (BookedSeats != null)
             {
@@ -113,19 +113,21 @@ namespace EventSeatManager.ViewModels
                     }
                     ErrorMessage = string.Empty;
 
-                    await _ticketsService?.GetDataAndMakeTicketRequest(SessionDate, seatPlaces, rowPlaces, _filmId);
-                    await _filmsService?.GetDataAndUpdateFilmTable(seatPlaces, _filmId);
-
+                    if (seatPlaces != null && rowPlaces != null)
+                    {
+                        await _ticketsService.GetDataAndMakeTicketRequest(SessionDate, seatPlaces, rowPlaces, _filmId);
+                        await _filmsService.GetDataAndUpdateFilmTable(seatPlaces, _filmId);
+                    }
 
                     ClearTickets();
-                    Seats.Clear();
+                    Seats?.Clear();
                     AppNavigationService.MainFrame!.Navigate(typeof(ProfilePage));
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Ошибка при оплате: {ex.Message}");
-                }
+                Console.WriteLine($"Ошибка при оплате: {ex.Message}");
             }
+        }
         }
 
 
@@ -135,7 +137,7 @@ namespace EventSeatManager.ViewModels
             SessionDate = film.SessionDate;
             _filmId = film.Id;
             TotalPrice = 0;
-            Seats.Clear();
+            Seats?.Clear();
             BookedSeats?.Clear();
             _ = LoadSeats();
         }

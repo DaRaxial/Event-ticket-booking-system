@@ -43,7 +43,7 @@ namespace EventSeatManager.Services.AuthorizationService
                 if (firstName != string.Empty && email != string.Empty && password != string.Empty)
                 {
                     string hashedPassword = BC.HashPassword(password);
-                    await _userRepository.CreateNewUser(firstName.ToLower(), email.ToLower(), hashedPassword);
+                    await _userRepository.CreateNewUser(firstName, email.ToLower(), hashedPassword);
                 }
                 else
                     return false;

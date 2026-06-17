@@ -37,7 +37,7 @@ namespace EventSeatManager.ViewModels
         }
 
         [RelayCommand]
-        private async void UpdateTicketList()
+        private async Task UpdateTicketList()
         {
             InitializeUserData();
             await LoadDataAsync();
@@ -45,10 +45,10 @@ namespace EventSeatManager.ViewModels
         }
 
         [RelayCommand]
-        private void AddToBalance()
+        private async Task AddToBalance()
         {
             Balance += 1000;
-            _profileService.UpdateBalance(Balance);
+            await _profileService.UpdateBalance(Balance);
         }
         private void InitializeUserData()
         {
@@ -57,7 +57,7 @@ namespace EventSeatManager.ViewModels
             FirstName = user?.FirstName ?? "Неизвестно";
             Email = user?.Email ?? "Неизвестно";
             CountOfTickets = user?.CountOfTickets ?? 0;
-            Balance = (decimal)(user?.Balance);
+            Balance = (decimal)(user?.Balance)!;
         }
 
         private async Task LoadDataAsync()
@@ -68,10 +68,10 @@ namespace EventSeatManager.ViewModels
                 if (_profileService.TicketDataService?.Any() == true)
                 {
                     var reversedList = _profileService.TicketDataService.Reverse().ToList();
-                    TicketData.Clear();
+                    TicketData?.Clear();
                     foreach (var item in reversedList)
                     {
-                        TicketData.Add(item);
+                        TicketData?.Add(item);
                     }
                     CountOfTickets = TicketData.Count();
                 }
@@ -93,6 +93,6 @@ namespace EventSeatManager.ViewModels
         }
 
         [RelayCommand]
-        private void LeaveFromAcc() => AppNavigationService.MainFrame.Navigate(typeof(LoginPage));
+        private void LeaveFromAcc() => AppNavigationService.MainFrame!.Navigate(typeof(LoginPage));
     }
 }

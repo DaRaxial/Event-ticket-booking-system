@@ -1,5 +1,4 @@
-﻿using Avalonia.Collections;
-using EventSeatManager.Models;
+﻿using EventSeatManager.Models;
 using EventSeatManager.Repository;
 using EventSeatManager.Repository.YandexCloud;
 using EventSeatManager.Utils;

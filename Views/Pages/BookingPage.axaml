@@ -9,13 +9,19 @@
 			 x:DataType="viewmodels:BookingPageViewModel">
 	<UserControl.Styles>
 		<Style Selector="Button.seats">
-			<Style Selector="^:pressed">
-				<Setter Property="Background" Value="Yellow"/>
-			</Style>
-			<Style Selector="^:pointerover">
-			</Style>
+			<Setter Property="Background" Value="rgba(122, 22, 156, 1)"/>
+			<Setter Property="Foreground" Value="White"/>
+		</Style>
+		<Style Selector="Button.seats:pointerover">
+			<Setter Property="Background" Value="rgba(122, 22, 156, 1)"/>
+			<Setter Property="Foreground" Value="White"/>
+		</Style>
+		<Style Selector="Button.seats:pressed">
+			<Setter Property="Background" Value="rgba(122, 22, 156, 1)"/>
+			<Setter Property="Foreground" Value="White"/>
 		</Style>
 	</UserControl.Styles>
+
 
 	<UserControl.DataContext>
 		<viewmodels:BookingPageViewModel />
@@ -82,9 +88,8 @@
 											<ItemsControl.ItemTemplate>
 												<DataTemplate>
 													<Grid>
-														<Button CornerRadius="20" Width="35" Height="35" Content="{Binding Id}" FontWeight="Medium"
-																HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="rgba(122, 22, 156, 1)"
-																Margin="0, 0, 15, 10" Foreground="White"
+														<Button Classes="seats" CornerRadius="20" Width="35" Height="35" Content="{Binding Id}" FontWeight="Medium"
+																HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0, 0, 15, 10"
 																Command="{Binding $parent[ItemsControl].DataContext.AddSeatPlaceCommand}"
 																CommandParameter="{Binding}" IsEnabled="{Binding IsEnabled}">
 														</Button>

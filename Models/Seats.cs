@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using System.Drawing;
 
 namespace EventSeatManager.Models
 {
@@ -7,8 +8,6 @@ namespace EventSeatManager.Models
         public int Id { get; set; }
         public int Row { get; set; } = 1;
         public int FilmId { get; set; }
-        public bool IsAvailable { get; set; } = true;
-        public bool SelectedSeat { get; set;}
         public bool IsEnabled { get; set; } = true;
     }
 }

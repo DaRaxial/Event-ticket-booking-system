@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventSeatManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+879bd84b1db41bfc5fcbeb9dd7943a96bd283310")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+111715fba426cc6f0e80af09640a55f525b80115")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventSeatManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventSeatManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
