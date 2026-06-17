@@ -7,7 +7,7 @@
         mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="720"
         x:Class="EventSeatManager.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
-        Icon="/Assets/EventSeat-logo.ico"
+        Icon="/Assets/EventSeatIcon.ico"
         Title="EventSeatManager"
         Width="1140"
         Height="720"

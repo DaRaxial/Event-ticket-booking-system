@@ -18,5 +18,6 @@ namespace EventSeatManager.Models
         public string PosterPath { get; set; } = string.Empty;
         public Task<Bitmap?>? PosterImageToView { get; set; }
         public string SessionDate { get; set; } = string.Empty;
+        public int[]? BookedSeats { get; set; }
     }
 }

@@ -58,5 +58,11 @@ namespace EventSeatManager.Services
         {
             SelectedFilm = film;
         }
+
+        public async Task<List<int>> CheckSeatsStatus(int filmId)
+        {
+            var films = await _filmsRepository.GetBookedSeatsForFilm(filmId);
+            return films;
+        }
     }
 }

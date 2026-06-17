@@ -9,5 +9,6 @@ namespace EventSeatManager.Models
         public int FilmId { get; set; }
         public bool IsAvailable { get; set; } = true;
         public bool SelectedSeat { get; set;}
+        public bool IsEnabled { get; set; } = true;
     }
 }

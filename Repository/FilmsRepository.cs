@@ -64,5 +64,16 @@ namespace EventSeatManager.Repository
                 Console.WriteLine($"Общая ошибка обновления записи: {ex.Message}");
             }
         }
+
+        public async Task<List<int>> GetBookedSeatsForFilm(int filmId)
+        {
+            await using var conn = new NpgsqlConnection(_connString);
+            await conn.OpenAsync();
+
+            string getBookedSeatsCmd = "SELECT bookedseats FROM films WHERE id = @id";
+            var result = await conn.QueryFirstOrDefaultAsync<int[]>(getBookedSeatsCmd, new { id = filmId });
+            
+            return result?.ToList() ?? new List<int>();
+        }
     }
 }

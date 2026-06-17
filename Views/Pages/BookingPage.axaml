@@ -17,6 +17,10 @@
 		</Style>
 	</UserControl.Styles>
 
+	<UserControl.DataContext>
+		<viewmodels:BookingPageViewModel />
+	</UserControl.DataContext>
+
 	<Border CornerRadius="12" Background="White">
 		<Grid ShowGridLines="False" RowDefinitions="Auto, *">
 			<!-- Верхняя панель управления -->
@@ -78,11 +82,12 @@
 											<ItemsControl.ItemTemplate>
 												<DataTemplate>
 													<Grid>
-														<local:SeatButton/>
-														<!--<Button Command="{Binding $parent[ItemsControl].DataContext.AddSeatPlaceCommand}"
-														CommandParameter="{Binding}" Classes="seats:pressed"
-														CornerRadius="25" Width="40" Height="40"
-														Margin="-3, -10, 0, 0" Background="Transparent"/>-->
+														<Button CornerRadius="20" Width="35" Height="35" Content="{Binding Id}" FontWeight="Medium"
+																HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="rgba(122, 22, 156, 1)"
+																Margin="0, 0, 15, 10" Foreground="White"
+																Command="{Binding $parent[ItemsControl].DataContext.AddSeatPlaceCommand}"
+																CommandParameter="{Binding}" IsEnabled="{Binding IsEnabled}">
+														</Button>
 													</Grid>
 												</DataTemplate>
 											</ItemsControl.ItemTemplate>
@@ -128,7 +133,14 @@
 								<StackPanel Orientation="Horizontal">
 									<TextBlock Text="Билеты" FontSize="33" FontWeight="Bold" HorizontalAlignment="Center" Margin="10, 0, 0, 5"/>
 									<Button Command="{Binding ClearTicketsCommand}" Content="Удалить билеты" FontSize="20" FontWeight="Medium" CornerRadius="12"
-											Margin="235, 0, 0, 5" Background="MediumPurple"/>
+											Margin="235, 0, 0, 5" Foreground="White">
+										<Button.Background>
+											<LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,0%">
+												<GradientStop Color="Purple" Offset="0.1"/>
+												<GradientStop Color="rgba(36, 0, 97, 0.85)" Offset="1.0"/>
+											</LinearGradientBrush>
+										</Button.Background>
+									</Button>
 								</StackPanel>
 								<Border Height="220" HorizontalAlignment="Stretch" CornerRadius="12" Background="Gray"
 										Opacity="0.3">

@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace EventSeatManager.ViewModels
 {
@@ -47,23 +48,24 @@ namespace EventSeatManager.ViewModels
         // Конструкторы
         public BookingPageViewModel(Films film)
         {
-            LoadSeats();
+            _filmId = film.Id;
             UpdateWithFilm(film);
         }
         public BookingPageViewModel()
         {
-            LoadSeats();
         }
 
         // Методы
-        private void LoadSeats()
+        private async Task LoadSeats()
         {
+            var bookedSeats = await _filmsService.CheckSeatsStatus(_filmId);
             for (int i = 1; i <= 36; i++)
             {
                 Seats?.Add(new Seats
                 {
                     Id = i,
-                    Row = (i - 1) / 6 + 1
+                    Row = (i - 1) / 6 + 1,
+                    IsEnabled = !bookedSeats.Contains(i)
                 });
             }
             BookedSeats?.Clear();
@@ -116,6 +118,8 @@ namespace EventSeatManager.ViewModels
 
 
                     ClearTickets();
+                    Seats.Clear();
+                    AppNavigationService.MainFrame!.Navigate(typeof(ProfilePage));
                 }
                 catch (Exception ex)
                 {
@@ -131,7 +135,9 @@ namespace EventSeatManager.ViewModels
             SessionDate = film.SessionDate;
             _filmId = film.Id;
             TotalPrice = 0;
+            Seats.Clear();
             BookedSeats?.Clear();
+            _ = LoadSeats();
         }
 
         // Верхняя панель (навигация)

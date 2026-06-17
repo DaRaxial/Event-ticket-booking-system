@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using EventSeatManager.Models;
 using EventSeatManager.Repository.YandexCloud;
 using EventSeatManager.Services;
+using EventSeatManager.Services.Navigation;
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -90,5 +91,8 @@ namespace EventSeatManager.ViewModels
         {
             var balance = await _profileService.GetNewBalance();
         }
+
+        [RelayCommand]
+        private void LeaveFromAcc() => AppNavigationService.MainFrame.Navigate(typeof(LoginPage));
     }
 }
